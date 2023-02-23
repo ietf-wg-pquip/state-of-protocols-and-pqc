@@ -13,6 +13,6 @@
 |  draft-ietf-lamps-dilithium-certificates-01.html: Internet X.509 Public Key Infrastructure: Algorithm Identifiers for Dilithium  |  https://www.ietf.org/id/draft-ietf-lamps-dilithium-certificates-01.html          |    LAMPS |  Dilithium quantum-resistant signatures in Internet X.509 certificates |               	|
 | draft-perret-prat-lamps-cms-pq-kem: Use of Post-Quantum KEM in the Cryptographic Message Syntax (CMS) |    https://datatracker.ietf.org/doc/draft-perret-prat-lamps-cms-pq-kem/   	|               	|       LAMPS  |               	|
 | draft-hoffman-c2pq: The Transition from Classical to Post-Quantum Cryptography |   https://datatracker.ietf.org/doc/draft-hoffman-c2pq/07/   	|               	|  CFRG  |               	|
-| draft-cfrg-schwabe-kyber-01: Kyber Post-Quantum KEM |   https://datatracker.ietf.org/doc/draft-cfrg-schwabe-kyber/ | Description of the Kyber algorithm |  CFRG  |               	|
-| draft-fluhrer-cfrg-ntru-00: NTRU Key Encapsulation |  https://datatracker.ietf.org/doc/draft-fluhrer-cfrg-ntru/00/ | Description of the NTRU algorithm |  CFRG  |               	|
+| draft-cfrg-schwabe-kyber-01: Kyber Post-Quantum KEM |   https://datatracker.ietf.org/doc/draft-cfrg-schwabe-kyber/ | CFRG |  Description of the Kyber algorithm  |               	|
+| draft-fluhrer-cfrg-ntru-00: NTRU Key Encapsulation |  https://datatracker.ietf.org/doc/draft-fluhrer-cfrg-ntru/00/ | CFRG |  Description of the NTRU algorithm  |               	|
 | draft-irtf-qirg-quantum-internet-use-cases: Application Scenarios for the Quantum Internet |  https://datatracker.ietf.org/doc/draft-irtf-qirg-quantum-internet-use-cases/ | |  qirg  |               	|
