@@ -1,6 +1,6 @@
 # IETF protocols drafts in regards to PQC
 
-| Draft-name                                                                 	| Link                                                               	| Working group 	| In regards to                            	| Comments      	|
+| Draft-name                                                                 	| Link                                                               	| Working group/Protocol 	| In regards to                            	| Comments      	|
 |----------------------------------------------------------------------------	|--------------------------------------------------------------------	|---------------	|------------------------------------------	|---------------	|
 | draft-kampanakis-tls-scas-latest:   Suppressing CA Certificates in TLS 1.3 	| https://datatracker.ietf.org/doc/draft-kampanakis-tls-scas-latest/ 	| TLS           	| TLS authentication and certificate chain 	|               	|
 | draft-ietf-tls-hybrid-design: Hybrid key exchange in TLS 1.3               	|  https://datatracker.ietf.org/doc/draft-ietf-tls-hybrid-design/     | TLS           	| Hybrid TLS key exchange | Adopted draft 	|
@@ -16,3 +16,4 @@
 | draft-cfrg-schwabe-kyber-01: Kyber Post-Quantum KEM |   https://datatracker.ietf.org/doc/draft-cfrg-schwabe-kyber/ | cfrg |  Description of the Kyber algorithm  |               	|
 | draft-fluhrer-cfrg-ntru-00: NTRU Key Encapsulation |  https://datatracker.ietf.org/doc/draft-fluhrer-cfrg-ntru/00/ | cfrg |  Description of the NTRU algorithm  |               	|
 | draft-irtf-qirg-quantum-internet-use-cases: Application Scenarios for the Quantum Internet |  https://datatracker.ietf.org/doc/draft-irtf-qirg-quantum-internet-use-cases/ | qirg |    |               	|
+| draft-kampanakis-curdle-ssh-pq-ke-00: Post-quantum Hybrid Key Exchange in SSH |  https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke/00/ | ssh |    |               	|
