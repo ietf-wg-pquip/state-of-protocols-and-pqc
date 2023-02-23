@@ -15,3 +15,4 @@
 | draft-hoffman-c2pq: The Transition from Classical to Post-Quantum Cryptography |   https://datatracker.ietf.org/doc/draft-hoffman-c2pq/07/   	|               	|  CFRG  |               	|
 | draft-cfrg-schwabe-kyber-01: Kyber Post-Quantum KEM |   https://datatracker.ietf.org/doc/draft-cfrg-schwabe-kyber/ | Description of the Kyber algorithm |  CFRG  |               	|
 | draft-fluhrer-cfrg-ntru-00: NTRU Key Encapsulation |  https://datatracker.ietf.org/doc/draft-fluhrer-cfrg-ntru/00/ | Description of the NTRU algorithm |  CFRG  |               	|
+| draft-irtf-qirg-quantum-internet-use-cases: Application Scenarios for the Quantum Internet |  https://datatracker.ietf.org/doc/draft-irtf-qirg-quantum-internet-use-cases/ | |  qirg  |               	|
