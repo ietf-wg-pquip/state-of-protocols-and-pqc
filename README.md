@@ -21,3 +21,21 @@
 | Leighton-Micali Hash-Based Signatures | <https://www.rfc-editor.org/rfc/rfc8554> | CFRG | | RFC | 
 | XMSS: eXtended Merkle Signature Scheme | <https://www.rfc-editor.org/rfc/rfc8391> | CFRG | | RFC | 
 | Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS)| <https://www.rfc-editor.org/rfc/rfc8708.html> |CFRG| |RFC | 
+
+
+
+# Sec Area Protocols - No Action Needed
+
+This table lists IETF Security Area protocols with "No Action Needed", typically because that protocol does not itself specify any cryptographic algorithms but instead embeds other IETF cryptographic protocols. Therefore no action is needed for that protocol because it will inherit PQ crypto as soon as its cryptographic dependencies support it. 
+
+
+| Protocol (RFC) | Working Group  | Cryptographic dependencies | Comment |
+|--------------- |--------------- |--------------------------- |-------- |
+| ACME (RFC8555) | ACME           | PKCS #10 (RFC2986), JOSE/JWS (RFC 7515), TLS (RFC8446) | |
+| CMC  (RFC5272) | LAMPS          | CMS (RFC5652), PKCS #10 (RFC2986) |         |
+| QUIC (RFC9000) | quic           | TLS 1.3 (RFC8446)          | QUIC is pretty specific to TLS 1.3, so probably needs an update in lockstep with each TLS update |
+| DoH (RFC8484)  | doh            | TLS (RFC8446)              |         |
+| EST  (RFC7030) | LAMPS          | CMC (RFC5272), CMS (RFC5652), PKCS #10 (RFC2986), TLS (RFC8446) |         |
+| HTTPS (RFC9110) | HTTPbis       | TLS (RFC8446)
+| SCEP (RFC8894) | LAMPS (?)      | CMS (RFC5652), PKCS #10 (RFC2986) |  |
+| S/MIME (RFC5751) | LAMPS        | CMS (RFC5652)               |         | Section 4.1 does explicitely list RSA, DSA, SHA-1. So maybe this does need a DIE DIE DIE draft? |
