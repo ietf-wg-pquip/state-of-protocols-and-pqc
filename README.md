@@ -38,4 +38,4 @@ This table lists IETF Security Area protocols with "No Action Needed", typically
 | EST      | RFC7030   | LAMPS          | CMC (RFC5272), CMS (RFC5652), PKCS #10 (RFC2986), TLS (RFC8446) |         |
 | HTTPS    | RFC9110   | HTTPbis       | TLS (RFC8446)
 | SCEP     | RFC8894   | LAMPS (?)      | CMS (RFC5652), PKCS #10 (RFC2986) |  |
-| S/MIME   | RFC5751   | LAMPS        | CMS (RFC5652)               |         | Section 4.1 does explicitely list RSA, DSA, SHA-1. So maybe this does need a DIE DIE DIE draft? |
+| S/MIME   | RFC5751   | LAMPS        | CMS (RFC5652)               | Section 4.1 does explicitely list RSA, DSA, SHA-1. So maybe this does need a DIE DIE DIE draft? |
