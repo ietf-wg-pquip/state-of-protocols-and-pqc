@@ -21,6 +21,7 @@
 | Leighton-Micali Hash-Based Signatures | <https://www.rfc-editor.org/rfc/rfc8554> | CFRG | | RFC | 
 | XMSS: eXtended Merkle Signature Scheme | <https://www.rfc-editor.org/rfc/rfc8391> | CFRG | | RFC | 
 | Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS)| <https://www.rfc-editor.org/rfc/rfc8708.html> |CFRG| |RFC | 
+|JOSE and COSE Encoding for Post-Quantum Signatures| <https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/> | COSE | | Will be split into separate drafts, one for each alg covered |
 
 
 
