@@ -24,10 +24,17 @@
 | Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS)| <https://www.rfc-editor.org/rfc/rfc8708.html> |CFRG| | RFC |
 | Additional Parameter sets for LMS Hash-Based Signatures | <https://datatracker.ietf.org/doc/draft-fluhrer-lms-more-parm-sets/> | CFRG | Active RG Document | 
 
+
+# Implementations and interop testing for these specs
+
+The following is an informal list of implementations of the RFCs and drafts above. This list also is for sites that have interoperability reports for impelemntations
+
+- ... first implemenation or interop report goes here ...
+
+
 # Security Area protocols with no PQC-specific action needed
 
 This table lists IETF Security Area protocols with "no action needed", typically because that protocol does not itself specify any cryptographic algorithms but instead embeds other IETF cryptographic protocols. Therefore no action is needed for that protocol because it will inherit PQC as soon as its cryptographic dependencies support it. 
-
 
 | Protocol | RFC       | Working Group  | Cryptographic dependencies | Comment |
 |--------- |---------- |--------------- |--------------------------- |-------- |
@@ -39,3 +46,4 @@ This table lists IETF Security Area protocols with "no action needed", typically
 | HTTPS    | <https://datatracker.ietf.org/doc/rfc9110/>   | HTTPbis       | TLS (RFC 8446)
 | SCEP     | <https://datatracker.ietf.org/doc/rfc8894/>   | LAMPS (?)      | CMS (RFC 5652), PKCS #10 (RFC 2986) |  |
 | S/MIME   | <https://datatracker.ietf.org/doc/rfc5751/>   | LAMPS        | CMS (RFC 5652)               | Section 4.1 explicitly lists RSA, DSA, SHA-1. So maybe this needs an update to only modern non-PQC crypto. |
+
