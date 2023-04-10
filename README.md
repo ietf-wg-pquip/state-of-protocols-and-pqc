@@ -11,7 +11,9 @@
 | Quantum Safe Cryptography Key Information for CRYSTALS-Dilithium | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-dilithium/> | Individual | Dilithium encodings | |
 | Quantum Safe Cryptography Key Information for FALCON | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-falcon/> | Individual | FALCON encodings | |
 | Quantum Safe Cryptography Key Information for SPHINCS-PLUS | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-sphincsplus/> | SPHINCS+ encodings | | |
+| X25519Kyber768Draft00 hybrid post-quantum KEM for HPKE | https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/ | CFRG | Adds Kyber support (as a hybrid with X25519) to HPKE RFC 9180 | |
 | XMSS: eXtended Merkle Signature Scheme | <https://www.rfc-editor.org/rfc/rfc8391> | CFRG | | RFC | 
+
 
 
 # PQC support in protocols and migration techniques
