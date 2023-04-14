@@ -68,6 +68,8 @@ The following is an informal list of implementations of the RFCs and drafts abov
 
 - ... first implemenation or interop report goes here ...
 
+This is an appropriate place to list interop events and hackathons that relate to PQC algorithms.
+
 
 # Security Area protocols with no PQC-specific action needed
 
@@ -83,4 +85,9 @@ This table lists IETF Security Area protocols with "no action needed", typically
 | HTTPS    | <https://datatracker.ietf.org/doc/rfc9110/>   | HTTPbis       | TLS (RFC 8446)
 | SCEP     | <https://datatracker.ietf.org/doc/rfc8894/>   | LAMPS (?)      | CMS (RFC 5652), PKCS #10 (RFC 2986) |  |
 | S/MIME   | <https://datatracker.ietf.org/doc/rfc5751/>   | LAMPS        | CMS (RFC 5652)               | Section 4.1 explicitly lists RSA, DSA, SHA-1. So maybe this needs an update to only modern non-PQC crypto. |
+
+
+# Suggestions for possible additions
+
+The lists above can contain protocols and proposals from other standards organizations, such as IEEE, ETSI, and so on.
 
