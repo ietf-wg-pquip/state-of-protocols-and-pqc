@@ -13,7 +13,6 @@
 | Quantum Safe Cryptography Key Information for SPHINCS-PLUS | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-sphincsplus/> | Individual | SPHINCS+ encodings | | |
 | X25519Kyber768Draft00 hybrid post-quantum KEM for HPKE | <https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/> | CFRG | Adds Kyber support (as a hybrid with X25519) to HPKE RFC 9180 | |
 | XMSS: eXtended Merkle Signature Scheme | <https://www.rfc-editor.org/rfc/rfc8391> | CFRG | | RFC | 
-| Leighton-Micali Hash-Based Signatures | <https://www.rfc-editor.org/rfc/rfc8544> | CFRG | | RFC | 
 
 
 
