@@ -4,8 +4,10 @@
 |------------ |----- |------------------------------ |------ |--------- |
 | Additional Parameter sets for LMS Hash-Based Signatures | <https://datatracker.ietf.org/doc/draft-fluhrer-lms-more-parm-sets/> | CFRG | Paramater sets for the LMS signature primitive | |
 | Combiner function for hybrid key encapsulation mechanisms (Hybrid KEMs) | <https://datatracker.ietf.org/doc/draft-ounsworth-cfrg-kem-combiners/> | CFRG | | |
+| Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512 | <https://datatracker.ietf.org/doc/draft-josefsson-ntruprime-hybrid/> | Intependent / CFRG | Hybrids of Streamlined NTRU Prime with X25519 | |
 | Kyber Post-Quantum KEM | <https://datatracker.ietf.org/doc/draft-cfrg-schwabe-kyber/> | CFRG | Description of the Kyber algorithm | |
 | Leighton-Micali Hash-Based Signatures | <https://www.rfc-editor.org/rfc/rfc8554> | CFRG | | RFC | 
+| Streamlined NTRU Prime: sntrup761 | <https://datatracker.ietf.org/doc/draft-josefsson-ntruprime-streamlined/> | Indepentent / CFRG | Streamlined NTRU Prime KEM | |
 | NTRU Key Encapsulation | <https://datatracker.ietf.org/doc/draft-fluhrer-cfrg-ntru/> | CFRG | Description of the NTRU algorithm | |
 | Quantum Safe Cryptography Key Information for CRYSTALS-Kyber | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-kyber/> | Individual | Kyber encodings | |
 | Quantum Safe Cryptography Key Information for CRYSTALS-Dilithium | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-dilithium/> | Individual | Dilithium encodings | |
