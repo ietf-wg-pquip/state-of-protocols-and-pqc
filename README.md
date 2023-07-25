@@ -24,7 +24,10 @@
 |------------ |----- |------------------------------ |------ |--------- |
 | COSE Key and JSON Web Key Representation for Key Encapsulation Mechanism (KEM) of Hybrid Public Key Encryption (HPKE) | <https://datatracker.ietf.org/doc/draft-ajitomi-cose-cose-key-jwk-hpke-kem/> | COSE | KEM wrapper for COSE | |
 | COSE Kyber | <https://datatracker.ietf.org/doc/draft-steele-cose-kyber/> | COSE | Defines encoding and registry for Kyber | 
-| JOSE and COSE Encoding for Post-Quantum Signatures | https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/ | COSE | JSON and CBOR serializations for several Post-Quantum Cryptography (PQC) based suites including CRYSTALS Dilithium, Falcon, and SPHINCS+. | |
+| JOSE and COSE Encoding for Post-Quantum Signatures | <https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/> | COSE | JSON and CBOR serializations for several Post-Quantum Cryptography (PQC) based suites including CRYSTALS Dilithium, Falcon, and SPHINCS+. | No longer current, Split into one draft per signature suite - see relevant COSE items below |
+| JOSE and COSE Encoding for Dilithium | <https://datatracker.ietf.org/doc/draft-ietf-cose-dilithium/01/> | COSE | Dilithium in COSE/JOSE | |
+| JOSE and COSE Encoding for Falcon | <https://datatracker.ietf.org/doc/draft-ietf-cose-falcon/01/> | COSE | FALCON in COSE/JOSE | |
+| JOSE and COSE Encoding for SPHINCS+ | <https://datatracker.ietf.org/doc/draft-ietf-cose-sphincs-plus/01/> | COSE | SHPINCS+ in COSE/JOSE | |
 | Use of the HSS/LMS Hash-Based Signature Algorithm with CBOR Object Signing and Encryption (COSE) | <https://datatracker.ietf.org/doc/rfc8778/> | COSE | HSS / LMS in COSE | RFC |
 | Stateful Hash-based Signatures For DNSSEC | <https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/> | Individual | Stateful Hash-based Signatures For DNSSEC | Expired draft | 
 | Algorithm Identifiers for Hash-based Signatures for Use in the Internet X.509 Public Key Infrastructure | <https://datatracker.ietf.org/doc/draft-gazdag-x509-hash-sigs/> | LAMPS | OIDs for HSS/LMS, XMSS, SPHINCS+ for use in PKIX | |
