@@ -22,6 +22,7 @@
 
 | Draft title | Link | Working Group and/or protocol | Topic | Comments |
 |------------ |----- |------------------------------ |------ |--------- |
+| draft-giron-acme-pqcnegotiation | <https://datatracker.ietf.org/doc/draft-giron-acme-pqcnegotiation/> | ACME | Adds algorithm negotiation to ACME, including adding KEM PoP mechanisms | From on-list discussion, unclear whether ACME actually benefits from this. |
 | COSE Key and JSON Web Key Representation for Key Encapsulation Mechanism (KEM) of Hybrid Public Key Encryption (HPKE) | <https://datatracker.ietf.org/doc/draft-ajitomi-cose-cose-key-jwk-hpke-kem/> | COSE | KEM wrapper for COSE | |
 | COSE Kyber | <https://datatracker.ietf.org/doc/draft-steele-cose-kyber/> | COSE | Defines encoding and registry for Kyber | 
 | JOSE and COSE Encoding for Post-Quantum Signatures | https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/ | COSE | JSON and CBOR serializations for several Post-Quantum Cryptography (PQC) based suites including CRYSTALS Dilithium, Falcon, and SPHINCS+. | |
