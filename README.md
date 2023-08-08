@@ -25,7 +25,10 @@
 | draft-giron-acme-pqcnegotiation | <https://datatracker.ietf.org/doc/draft-giron-acme-pqcnegotiation/> | ACME | Adds algorithm negotiation to ACME, including adding KEM PoP mechanisms | From on-list discussion, unclear whether ACME actually benefits from this. |
 | COSE Key and JSON Web Key Representation for Key Encapsulation Mechanism (KEM) of Hybrid Public Key Encryption (HPKE) | <https://datatracker.ietf.org/doc/draft-ajitomi-cose-cose-key-jwk-hpke-kem/> | COSE | KEM wrapper for COSE | |
 | COSE Kyber | <https://datatracker.ietf.org/doc/draft-steele-cose-kyber/> | COSE | Defines encoding and registry for Kyber | 
-| JOSE and COSE Encoding for Post-Quantum Signatures | https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/ | COSE | JSON and CBOR serializations for several Post-Quantum Cryptography (PQC) based suites including CRYSTALS Dilithium, Falcon, and SPHINCS+. | |
+| JOSE and COSE Encoding for Post-Quantum Signatures | <https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/> | COSE | JSON and CBOR serializations for several Post-Quantum Cryptography (PQC) based suites including CRYSTALS Dilithium, Falcon, and SPHINCS+. | No longer current, Split into one draft per signature suite - see relevant COSE items below |
+| JOSE and COSE Encoding for Dilithium | <https://datatracker.ietf.org/doc/draft-ietf-cose-dilithium/01/> | COSE | Dilithium in COSE/JOSE | |
+| JOSE and COSE Encoding for Falcon | <https://datatracker.ietf.org/doc/draft-ietf-cose-falcon/01/> | COSE | FALCON in COSE/JOSE | |
+| JOSE and COSE Encoding for SPHINCS+ | <https://datatracker.ietf.org/doc/draft-ietf-cose-sphincs-plus/01/> | COSE | SHPINCS+ in COSE/JOSE | |
 | Use of the HSS/LMS Hash-Based Signature Algorithm with CBOR Object Signing and Encryption (COSE) | <https://datatracker.ietf.org/doc/rfc8778/> | COSE | HSS / LMS in COSE | RFC |
 | Stateful Hash-based Signatures For DNSSEC | <https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/> | Individual | Stateful Hash-based Signatures For DNSSEC | Expired draft | 
 | Algorithm Identifiers for Hash-based Signatures for Use in the Internet X.509 Public Key Infrastructure | <https://datatracker.ietf.org/doc/draft-gazdag-x509-hash-sigs/> | LAMPS | OIDs for HSS/LMS, XMSS, SPHINCS+ for use in PKIX | |
@@ -41,7 +44,11 @@
 | Post-Quantum Cryptography in OpenPGP | <https://datatracker.ietf.org/doc/draft-wussler-openpgp-pqc/> | OPENPGP | Post-Quantum public-key algorithm extension for the OpenPGP protocol | |
 | KEM-based Authentication for TLS 1.3 | <https://datatracker.ietf.org/doc/draft-celi-wiggers-tls-authkem/> | TLS | KEM-based authentication | Expired draft | 
 | X25519Kyber768Draft00 hybrid post-quantum key agreement | <https://datatracker.ietf.org/doc/draft-tls-westerbaan-xyber768d00> | TLS | X25519Kyber768 for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
+| Post-quantum Hybrid Key Exchange in SSH | [https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke](draft-kampanakis-curdle-ssh-pq-ke) | SSH | P256/384/521 or X25519 with Kyber | Supported in OQS OpenSSH, wolfSSH, AWS Transfer Family. Details in [blog](https://aws.amazon.com/blogs/security/post-quantum-hybrid-sftp-file-transfers-using-aws-transfer-family/) |
+| | [https://datatracker.ietf.org/doc/html/draft-josefsson-ntruprime-ssh-00](draft-josefsson-ntruprime-ssh-00) | SSH | NTRU with Kyber | Supported in OpenSSH. Details in see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0)  |
+| SecP256r1Kyber768Draft00 hybrid post-quantum key agreement | <https://datatracker.ietf.org/doc/draft-kwiatkowski-tls-ecdhe-kyber/> | TLS | ECDHE-Kyber for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
 | Post-quantum Hybrid Key Exchange in SSH | <https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke/> | SSH | NTRU, X25519 | see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0) |
+| MLS Ciphersuite using X25519Kyber768Draft00 KEM | <https://datatracker.ietf.org/doc/draft-mahy-mls-x25519kyber768draft00/> | MLS | X25519Kyber768 for MLS | based on KEM in <https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/> |
 
 
 # Improvements adjacent to PQC
