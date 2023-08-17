@@ -47,7 +47,6 @@
 | Post-quantum Hybrid Key Exchange in SSH | [https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke](draft-kampanakis-curdle-ssh-pq-ke) | SSH | P256/384/521 or X25519 with Kyber | Supported in OQS OpenSSH, wolfSSH, AWS Transfer Family. Details in [blog](https://aws.amazon.com/blogs/security/post-quantum-hybrid-sftp-file-transfers-using-aws-transfer-family/) |
 | | [https://datatracker.ietf.org/doc/html/draft-josefsson-ntruprime-ssh-00](draft-josefsson-ntruprime-ssh-00) | SSH | NTRU with Kyber | Supported in OpenSSH. Details in see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0)  |
 | SecP256r1Kyber768Draft00 hybrid post-quantum key agreement | <https://datatracker.ietf.org/doc/draft-kwiatkowski-tls-ecdhe-kyber/> | TLS | ECDHE-Kyber for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
-| Post-quantum Hybrid Key Exchange in SSH | <https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke/> | SSH | NTRU, X25519 | see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0) |
 | MLS Ciphersuite using X25519Kyber768Draft00 KEM | <https://datatracker.ietf.org/doc/draft-mahy-mls-x25519kyber768draft00/> | MLS | X25519Kyber768 for MLS | based on KEM in <https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/> |
 
 
