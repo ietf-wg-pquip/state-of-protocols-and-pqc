@@ -6,14 +6,14 @@ However, the community wants to avoid over-eagerly adopting the new names, seein
 
 The IETF will use the following naming convention to refer to different versions of the NIST PQC candidate algorithms, using Dilithium -> ML-DSA as an example:
 
-**Dilithium_round1/2/3** -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for this.
+* _**Dilithium_round1/2/3**_ -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for this.
 
-**ML-DSA-ipd** – FIPS 204 Initial Public Draft. Note this matches the PDF file name:
+* _**ML-DSA-ipd**_ – FIPS 204 Initial Public Draft. Note this matches the PDF file name:
 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.ipd.pdf
  
- **ML-DSA-pfYYMM** -- reserved for additional rounds of changes to the FIPS 204 draft standard; "pfYYMM" stands for "pre-final" and the year and month of publication.
+* _**ML-DSA-pfYYMM**_ -- reserved for additional rounds of changes to the FIPS 204 draft standard; "pfYYMM" stands for "pre-final" and the year and month of publication.
 
-**ML-DSA** – reserved for final FIPS 204.
+* _**ML-DSA**_ – reserved for final FIPS 204.
 
 The equivalent names are applied to Falcon, SPHINCS+, and Kyber. 
 
