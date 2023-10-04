@@ -1,10 +1,10 @@
 # Algorithm names
 
-The first round of "winners" of the [NIST PQC competition](https://csrc.nist.gov/Projects/post-quantum-cryptography) are Dilithium, Falcon, SPHINCS+, and Kyber. As of August 23, 2023 with the publication of the Initial Public Drafts of FIPS 203. 204, and 205 we know that Dilithium is being renamed to "ML-DSA" (module lattice), SPHINCS+ to "SLH-DSA" (stateless hash), and Kyber to "ML-KEM (module lattice).
+The first round of "winners" of the [NIST PQC competition](https://csrc.nist.gov/Projects/post-quantum-cryptography) are Dilithium, Falcon, SPHINCS+, and Kyber. As of August 23, 2023 with the publication of the Initial Public Drafts of FIPS 203, 204, and 205 we know that Dilithium is being renamed to "ML-DSA" (Module Lattice), SPHINCS+ to "SLH-DSA" (StateLess Hash), and Kyber to "ML-KEM (Module Lattice).
 
-However, the community wants to avoid over-eagerly adopting the new names, seeing a compatibility-breaking change in a future iteration of the draft standards, and then being in a situation where we have non-compatible algorithms with the same names. 
+However, the community wants to avoid the situation where we over-eagerly adopt the new names, then see a compatibility-breaking change in a future iteration of the FIPS draft standards, and then have multiple non-compatible algorithms with the same name. 
 
-The IETF will use the following naming convention to refer to different versions of the NIST PQC candidate algorithms, using Dilithium -> ML-DSA as an example:
+The IETF will use the following naming convention to refer to different versions of the NIST PQC candidate algorithms; using Dilithium -> ML-DSA as an example:
 
 * _**Dilithium_round1/2/3**_ -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for this.
 
