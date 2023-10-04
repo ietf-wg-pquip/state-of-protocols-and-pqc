@@ -1,3 +1,24 @@
+# Algorithm names
+
+The first round of "winners" of the [NIST PQC competition](https://csrc.nist.gov/Projects/post-quantum-cryptography) are Dilithium, Falcon, SPHINCS+, and Kyber. As of August 23, 2023 with the publication of the Initial Public Drafts of FIPS 203. 204, and 205 we know that Dilithium is being renamed to "ML-DSA" (module lattice), SPHINCS+ to "SLH-DSA" (stateless hash), and Kyber to "ML-KEM (module lattice).
+
+However, the community wants to avoid over-eagerly adopting the new names, seeing a compatibility-breaking change in a future iteration of the draft standards, and then being in a situation where we have non-compatible algorithms with the same names. 
+
+The IETF will use the following naming convention to refer to different versions of the NIST PQC candidate algorithms, using Dilithium -> ML-DSA as an example:
+
+**Dilithium_round1/2/3** -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for this.
+
+**ML-DSA-ipd** – FIPS 204 Initial Public Draft. Note this matches the PDF file name:
+https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.ipd.pdf
+ 
+ **ML-DSA-pfYYMM** -- reserved for additional rounds of changes to the FIPS 204 draft standard; "pfYYMM" stands for "pre-final" and the year and month of publication.
+
+**ML-DSA** – reserved for final FIPS 204.
+
+The equivalent names are applied to Falcon, SPHINCS+, and Kyber. 
+
+As well, similar naming conventions would apply to other NIST PQC such as Classic McEleice, HQC, Bike which are progressing through Round 4, as well as to new algorithms that come from the renewed call for signature algorithms.
+
 # Protocol-independent algorithm or cryptography specifications
 
 | Draft title | Link | Working Group and/or protocol | Topic | Comments |
