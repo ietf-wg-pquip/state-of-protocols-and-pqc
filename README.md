@@ -81,16 +81,16 @@ However, the community wants to avoid the situation where we over-eagerly adopt 
 
 The IETF will use the following naming convention to refer to different versions of the NIST PQC candidate algorithms; using Dilithium -> ML-DSA as an example:
 
-* _**Dilithium_round1/2/3**_ -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for this.
+* _**Dilithium_round1/2/3**_ -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for  "Dilithium3", the round 3 submission.
 
 * _**ML-DSA-ipd**_ – FIPS 204 Initial Public Draft. Note this matches the PDF file name:
 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.ipd.pdf
- 
+
 * _**ML-DSA**_ – reserved for final FIPS 204.
 
-The equivalent names are applied to Falcon, SPHINCS+, and Kyber. 
+The equivalent names are applied to Falcon, SPHINCS+, and Kyber.
 
-As well, similar naming conventions would apply to other NIST PQC such as Classic McEleice, HQC, Bike which are progressing through Round 4, as well as to new algorithms that come from the renewed call for signature algorithms.
+As well, similar naming conventions would apply to other NIST PQC such as Classic McEliece, HQC, Bike which are progressing through Round 4, as well as to new algorithms that come from the 2nd call for signature algorithms.
 
 
 # Implementations and interop testing for these specs
@@ -105,7 +105,7 @@ This is an appropriate place to list interop events and hackathons that relate t
 
 # Security Area protocols with no PQC-specific action needed
 
-This table lists IETF Security Area protocols with "no action needed", typically because that protocol does not itself specify any cryptographic algorithms but instead embeds other IETF cryptographic protocols. Therefore no action is needed for that protocol because it will inherit PQC as soon as its cryptographic dependencies support it. 
+This table lists IETF Security Area protocols with "no action needed", typically because that protocol does not itself specify any cryptographic algorithms but instead embeds other IETF cryptographic protocols. Therefore no action is needed for that protocol because it will inherit PQC as soon as its cryptographic dependencies support it.
 
 | Protocol | RFC       | Working Group  | Cryptographic dependencies | Comment |
 |--------- |---------- |--------------- |--------------------------- |-------- |
