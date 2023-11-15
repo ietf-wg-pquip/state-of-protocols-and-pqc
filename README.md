@@ -21,7 +21,7 @@
 
 | Draft title | Link | Working Group and/or protocol | Topic | Comments |
 |------------ |----- |------------------------------ |------ |--------- |
-| draft-giron-acme-pqcnegotiation | <https://datatracker.ietf.org/doc/draft-giron-acme-pqcnegotiation/> | ACME | Adds algorithm negotiation to ACME, including adding KEM PoP mechanisms | From on-list discussion, unclear whether ACME actually benefits from this. |
+| ACME PQC Algorithm Negotiation | <https://datatracker.ietf.org/doc/draft-giron-acme-pqcnegotiation/> | ACME | Adds algorithm negotiation to ACME, including adding KEM PoP mechanisms | From on-list discussion, unclear whether ACME actually benefits from this. |
 | COSE Key and JSON Web Key Representation for Key Encapsulation Mechanism (KEM) of Hybrid Public Key Encryption (HPKE) | <https://datatracker.ietf.org/doc/draft-ajitomi-cose-cose-key-jwk-hpke-kem/> | COSE | KEM wrapper for COSE | |
 | COSE Kyber | <https://datatracker.ietf.org/doc/draft-steele-cose-kyber/> | COSE | Defines encoding and registry for Kyber | 
 | JOSE and COSE Encoding for Post-Quantum Signatures | <https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/> | COSE | JSON and CBOR serializations for several Post-Quantum Cryptography (PQC) based suites including CRYSTALS Dilithium, Falcon, and SPHINCS+. | No longer current, Split into one draft per signature suite - see relevant COSE items below |
@@ -35,7 +35,7 @@
 | Algorithm Identifiers for NIST's PQC Algorithms for Use in the Internet X.509 Public Key Infrastructure | <https://datatracker.ietf.org/doc/draft-turner-lamps-nist-pqc-kem-certificates/> | LAMPS | | Expired draft |
 | Composite Signatures For Use In Internet PKI | <https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-sigs/> | LAMPS | Composite public and private keys and encryption | | 
 | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for Kyber | <https://datatracker.ietf.org/doc/draft-ietf-lamps-kyber-certificates/> | LAMPS | Republishing NIST OIDs and specifying Kyber encoding | |
-| Use of KYBER in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-ietf-lamps-kyber/> | LAMPS | | |
+| Use of KYBER in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-kyber/> | LAMPS | | |
 | Use of Post-Quantum KEM in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-perret-prat-lamps-cms-pq-kem/> | LAMPS | | |
 | Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS)| <https://www.rfc-editor.org/rfc/rfc8708.html> | LAMPS | | RFC | 
 | Use of the SPHINCS+ Signature Algorithm in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-sphincs-plus/> | LAMPS | | |
@@ -44,10 +44,11 @@
 | Post-Quantum Cryptography in OpenPGP | <https://datatracker.ietf.org/doc/draft-wussler-openpgp-pqc/> | Individual | Post-Quantum public-key algorithm extension for the OpenPGP protocol | |
 | KEM-based Authentication for TLS 1.3 | <https://datatracker.ietf.org/doc/draft-celi-wiggers-tls-authkem/> | TLS | KEM-based authentication | Expired draft | 
 | X25519Kyber768Draft00 hybrid post-quantum key agreement | <https://datatracker.ietf.org/doc/draft-tls-westerbaan-xyber768d00> | TLS | X25519Kyber768 for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
-| Post-quantum Hybrid Key Exchange in SSH | [https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke](draft-kampanakis-curdle-ssh-pq-ke) | SSH | P256/384/521 or X25519 with Kyber | Supported in OQS OpenSSH, wolfSSH, AWS Transfer Family. Details in [blog](https://aws.amazon.com/blogs/security/post-quantum-hybrid-sftp-file-transfers-using-aws-transfer-family/) |
-| | [https://datatracker.ietf.org/doc/html/draft-josefsson-ntruprime-ssh-00](draft-josefsson-ntruprime-ssh-00) | SSH | NTRU with Kyber | Supported in OpenSSH. Details in see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0)  |
+| Post-quantum Hybrid Key Exchange in SSH | <https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke> | SSH | P256/384/521 or X25519 with Kyber | Supported in OQS OpenSSH, wolfSSH, AWS Transfer Family. Details in [blog](https://aws.amazon.com/blogs/security/post-quantum-hybrid-sftp-file-transfers-using-aws-transfer-family/) |
+| | <https://datatracker.ietf.org/doc/html/draft-josefsson-ntruprime-ssh-00> | SSH | NTRU with Kyber | Supported in OpenSSH. Details in see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0)  |
 | SecP256r1Kyber768Draft00 hybrid post-quantum key agreement | <https://datatracker.ietf.org/doc/draft-kwiatkowski-tls-ecdhe-kyber/> | TLS | ECDHE-Kyber for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
 | MLS Ciphersuite using X25519Kyber768Draft00 KEM | <https://datatracker.ietf.org/doc/draft-mahy-mls-x25519kyber768draft00/> | MLS | X25519Kyber768 for MLS | based on KEM in <https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/> |
+| Post-quantum Hybrid Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2) | <https://datatracker.ietf.org/doc/draft-kampanakis-ml-kem-ikev2/> | IPSECME | ML-KEM for IKEv2 | |
 
 
 # Improvements adjacent to PQC
@@ -65,7 +66,7 @@
 | External Keys And Signatures For Use In Internet PKI | https://datatracker.ietf.org/doc/html/draft-ounsworth-lamps-pq-external-pubkeys-00 | LAMPS | A mechanism for an X.509 certificate to contain a link and hash of the public key instead of the entire object | |
 | TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key | <https://datatracker.ietf.org/doc/rfc8773/> | TLS | Use PSK in TLS 1.3 to be quantum safe | RFC |
 | Mixing Preshared Keys in the Internet Key Exchange Protocol Version 2 (IKEv2) for Post-quantum Security | <https://datatracker.ietf.org/doc/rfc8784/> | IPSECME | | RFC |
-| Multiple Key Exchanges in IKEv2 | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-multiple-ke/> | IPSECME | Defines multiple (hybrid) key exchange, with applications to PQ among other things | Submitted to IESG for Publication |
+| Multiple Key Exchanges in IKEv2 | <https://datatracker.ietf.org/doc/rfc9370/> | IPSECME | Defines multiple (hybrid) key exchange, with applications to PQ among other things | RFC |
 | Non-Composite Hybrid Authentication in PKIX and Applications to Internet Protocols | <https://datatracker.ietf.org/doc/draft-becker-guthrie-noncomposite-hybrid-auth/> | LAMPS | Non-composite hybrid authentication for X.509 | Expired 2022-09-26 | 
 | Related Certificates for Use in Multiple Authentications within a Protocol | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cert-binding-for-multi-auth/> | LAMPS | Bind certs across non-composite parallel PKIs | |
 | Hybrid key exchange in TLS 1.3 | <https://datatracker.ietf.org/doc/draft-ietf-tls-hybrid-design/> | TLS | Hybrid TLS key exchange | Adopted by WG |
@@ -73,6 +74,13 @@
 | Terminology for Post-Quantum Traditional Hybrid Schemes | <https://datatracker.ietf.org/doc/draft-driscoll-pqt-hybrid-terminology/> | PQUIP | | |
 | Post-Quantum Cryptography for Engineers | <https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-engineers/> | PQUIP | This document explains why engineers need to be aware of and understand post-quantum cryptography | Adopted by the WG |
 | Quantum Relief with TLS and Kerberos | <https://datatracker.ietf.org/doc/draft-vanrein-tls-kdh/> | Individual | Kerberos-over-TLS. | Unclear that this is directly PQC-related |
+| Using Key Encapsulation Mechanism (KEM) Algorithms in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-kemri/> | LAMPS | Adds KEMRecipientInfo to CMS, to enable PQ KEMs | Adopted by WG |
+| External Keys For Use In Internet X.509 Certificates | <https://datatracker.ietf.org/doc/draft-ounsworth-lamps-pq-external-pubkeys/> | LAMPS | Referencing external public keys by hash and location | |
+| A Mechanism for Encoding Differences in Paired Certificates | <https://datatracker.ietf.org/doc/draft-bonnell-lamps-chameleon-certs/> | LAMPS | | |
+| Merkle Tree Certificates for TLS | <https://datatracker.ietf.org/doc/draft-davidben-tls-merkle-tree-certs/> | TLS | New certificate type for use with a transparency service with reduced size compared to PQ signatures | |
+| Merkle Tree Ladder Mode (MTL) Signatures | <https://datatracker.ietf.org/doc/draft-harvey-cfrg-mtl-mode/> | CFRG | Amortize large PQ signatures across a large evolving series of messages | |
+| Internet X.509 Public Key Infrastructure -- Certificate Management Protocol (CMP) | <https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc4210bis/> | LAMPS | rfc4210bis, plus adds support for KEM certificates | Adopted by WG |
+| A Hybrid Signature Method with Strong Non-Separability | <https://datatracker.ietf.org/doc/draft-nir-lamps-altcompsigs/> | LAMPS | An alternative scheme of composing classic and post-quantum signature algorithms with different security properties. | |
 
 
 # Algorithm names
