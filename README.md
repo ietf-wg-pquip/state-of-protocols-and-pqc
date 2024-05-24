@@ -2,13 +2,13 @@
 
 | Draft title | Link | Working Group and/or protocol | Topic | Comments |
 |------------ |----- |------------------------------ |------ |--------- |
-| Additional Parameter sets for LMS Hash-Based Signatures | <https://datatracker.ietf.org/doc/draft-fluhrer-lms-more-parm-sets/> | CFRG | Paramater sets for the LMS signature primitive | |
+| Additional Parameter sets for LMS Hash-Based Signatures | <https://datatracker.ietf.org/doc/draft-fluhrer-lms-more-parm-sets/> | CFRG | Parameter sets for the LMS signature primitive | |
 | Combiner function for hybrid key encapsulation mechanisms (Hybrid KEMs) | <https://datatracker.ietf.org/doc/draft-ounsworth-cfrg-kem-combiners/> | CFRG | | |
 | X-Wing: general-purpose hybrid post-quantum KEM | <https://datatracker.ietf.org/doc/draft-connolly-cfrg-xwing-kem//> | CFRG | | |
 | Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512 | <https://datatracker.ietf.org/doc/draft-josefsson-ntruprime-hybrid/> | Intependent / CFRG | Hybrids of Streamlined NTRU Prime with X25519 | |
 | Kyber Post-Quantum KEM | <https://datatracker.ietf.org/doc/draft-cfrg-schwabe-kyber/> | CFRG | Description of the Kyber algorithm | |
 | Leighton-Micali Hash-Based Signatures | <https://www.rfc-editor.org/rfc/rfc8554> | CFRG | | RFC | 
-| Streamlined NTRU Prime: sntrup761 | <https://datatracker.ietf.org/doc/draft-josefsson-ntruprime-streamlined/> | Indepentent / CFRG | Streamlined NTRU Prime KEM | |
+| Streamlined NTRU Prime: sntrup761 | <https://datatracker.ietf.org/doc/draft-josefsson-ntruprime-streamlined/> | Independent / CFRG | Streamlined NTRU Prime KEM | |
 | NTRU Key Encapsulation | <https://datatracker.ietf.org/doc/draft-fluhrer-cfrg-ntru/> | CFRG | Description of the NTRU algorithm | |
 | Quantum Safe Cryptography Key Information for CRYSTALS-Kyber | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-kyber/> | Individual | Kyber encodings | |
 | Quantum Safe Cryptography Key Information for CRYSTALS-Dilithium | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-dilithium/> | Individual | Dilithium encodings | |
@@ -94,10 +94,10 @@ However, the community wants to avoid the situation where we over-eagerly adopt 
 
 The IETF will use the following naming convention to refer to different versions of the NIST PQC candidate algorithms; using Dilithium -> ML-DSA as an example:
 
-* _**Dilithium_round1/2/3**_ -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for  "Dilithium3", the round 3 submission.
+* _**Dilithium_round1/2/3**_ -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for "Dilithium_round3".
 
 * _**ML-DSA-ipd**_ – FIPS 204 Initial Public Draft. Note this matches the PDF file name:
-https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.ipd.pdf
+https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.ipd.pdf. For protocols that define a separate algorithm identifier per parameter set, it is encouraged to append the parameter ID to this string to form the string describing the algorithm identifier, e.g.,  _**ML-DSA-ipd-44**_.
 
 * _**ML-DSA**_ – reserved for final FIPS 204.
 
@@ -108,7 +108,7 @@ As well, similar naming conventions would apply to other NIST PQC such as Classi
 
 # Implementations and interop testing for these specs
 
-The following is an informal list of implementations of the RFCs and drafts above. This list also is for sites that have interoperability reports for impelemntations
+The following is an informal list of implementations of the RFCs and drafts above. This list also is for sites that have interoperability reports for implementations
 
 - [IETF Hackathon - PQC Certificates](https://github.com/IETF-Hackathon/pqc-certificates)
 - [IETF PQC Hackathon Interoperability Results](https://ietf-hackathon.github.io/pqc-certificates/pqc_hackathon_results_certs_r3.html)
