@@ -4,6 +4,7 @@
 |------------ |----- |------------------------------ |------ |--------- |
 | Additional Parameter sets for LMS Hash-Based Signatures | <https://datatracker.ietf.org/doc/draft-fluhrer-lms-more-parm-sets/> | CFRG | Paramater sets for the LMS signature primitive | |
 | Combiner function for hybrid key encapsulation mechanisms (Hybrid KEMs) | <https://datatracker.ietf.org/doc/draft-ounsworth-cfrg-kem-combiners/> | CFRG | | |
+| X-Wing: general-purpose hybrid post-quantum KEM | <https://datatracker.ietf.org/doc/draft-connolly-cfrg-xwing-kem//> | CFRG | | |
 | Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512 | <https://datatracker.ietf.org/doc/draft-josefsson-ntruprime-hybrid/> | Intependent / CFRG | Hybrids of Streamlined NTRU Prime with X25519 | |
 | Kyber Post-Quantum KEM | <https://datatracker.ietf.org/doc/draft-cfrg-schwabe-kyber/> | CFRG | Description of the Kyber algorithm | |
 | Leighton-Micali Hash-Based Signatures | <https://www.rfc-editor.org/rfc/rfc8554> | CFRG | | RFC | 
@@ -33,7 +34,8 @@
 | Stateful Hash-based Signatures For DNSSEC | <https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/> | Individual | Stateful Hash-based Signatures For DNSSEC | Expired draft | 
 | Algorithm Identifiers for Hash-based Signatures for Use in the Internet X.509 Public Key Infrastructure | <https://datatracker.ietf.org/doc/draft-gazdag-x509-hash-sigs/> | LAMPS | OIDs for HSS/LMS, XMSS, SPHINCS+ for use in PKIX | |
 | Algorithm Identifiers for NIST's PQC Algorithms for Use in the Internet X.509 Public Key Infrastructure | <https://datatracker.ietf.org/doc/draft-turner-lamps-nist-pqc-kem-certificates/> | LAMPS | | Expired draft |
-| Composite Signatures For Use In Internet PKI | <https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-sigs/> | LAMPS | Composite public and private keys and encryption | | 
+| Composite ML-DSA for use in Internet PKI | <https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-sigs/> | LAMPS | Composite public and private keys and signatures | | 
+| Composite ML-KEM for Use in the Internet X.509 Public Key Infrastructure and CMS | <https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem//> | LAMPS | Composite public and private keys and encryption | | 
 | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for Kyber | <https://datatracker.ietf.org/doc/draft-ietf-lamps-kyber-certificates/> | LAMPS | Republishing NIST OIDs and specifying Kyber encoding | |
 | Use of KYBER in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-kyber/> | LAMPS | | |
 | Use of Post-Quantum KEM in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-perret-prat-lamps-cms-pq-kem/> | LAMPS | | |
@@ -41,7 +43,7 @@
 | Use of the SPHINCS+ Signature Algorithm in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-sphincs-plus/> | LAMPS | | |
 | Internet X.509 Public Key Infrastructure: Algorithm Identifiers for Dilithium | <https://datatracker.ietf.org/doc/draft-ietf-lamps-dilithium-certificates/> | LAMPS | Dilithium quantum-resistant signatures in Internet X.509 certificates | |
 | Messaging Layer Security | <https://www.rfc-editor.org/rfc/rfc9420> | MLS | Native support for KEM | RFC |
-| Post-Quantum Cryptography in OpenPGP | <https://datatracker.ietf.org/doc/draft-wussler-openpgp-pqc/> | Individual | Post-Quantum public-key algorithm extension for the OpenPGP protocol | |
+| Post-Quantum Cryptography in OpenPGP | <draft-ietf-openpgp-pqc/> | OpenPGP | Post-Quantum public-key algorithm extension for the OpenPGP protocol | |
 | KEM-based Authentication for TLS 1.3 | <https://datatracker.ietf.org/doc/draft-celi-wiggers-tls-authkem/> | TLS | KEM-based authentication | Expired draft | 
 | X25519Kyber768Draft00 hybrid post-quantum key agreement | <https://datatracker.ietf.org/doc/draft-tls-westerbaan-xyber768d00> | TLS | X25519Kyber768 for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
 | Post-quantum Hybrid Key Exchange in SSH | <https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke> | SSH | P256/384/521 or X25519 with Kyber | Supported in OQS OpenSSH, wolfSSH, AWS Transfer Family. Details in [blog](https://aws.amazon.com/blogs/security/post-quantum-hybrid-sftp-file-transfers-using-aws-transfer-family/) |
