@@ -34,7 +34,7 @@
 | Stateful Hash-based Signatures For DNSSEC | <https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/> | Individual | Stateful Hash-based Signatures For DNSSEC | Expired draft | 
 | Algorithm Identifiers for Hash-based Signatures for Use in the Internet X.509 Public Key Infrastructure | <https://datatracker.ietf.org/doc/draft-gazdag-x509-hash-sigs/> | LAMPS | OIDs for HSS/LMS, XMSS, SPHINCS+ for use in PKIX | |
 | Algorithm Identifiers for NIST's PQC Algorithms for Use in the Internet X.509 Public Key Infrastructure | <https://datatracker.ietf.org/doc/draft-turner-lamps-nist-pqc-kem-certificates/> | LAMPS | | Expired draft |
-| Composite ML-DSA for use in Internet PKI | <https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-sigs/> | LAMPS | Composite public and private keys and signatures | | 
+| Composite ML-DSA for use in Internet PKI | <https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/> | LAMPS | Composite public and private keys and signatures | | 
 | Composite ML-KEM for Use in the Internet X.509 Public Key Infrastructure and CMS | <https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem//> | LAMPS | Composite public and private keys and encryption | | 
 | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for Kyber | <https://datatracker.ietf.org/doc/draft-ietf-lamps-kyber-certificates/> | LAMPS | Republishing NIST OIDs and specifying Kyber encoding | |
 | Use of KYBER in the Cryptographic Message Syntax (CMS) | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-kyber/> | LAMPS | | |
