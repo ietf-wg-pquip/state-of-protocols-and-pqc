@@ -16,7 +16,7 @@
 | Quantum Safe Cryptography Key Information for SPHINCS-PLUS | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-sphincsplus/> | Individual | SPHINCS+ encodings | | |
 | X25519Kyber768Draft00 hybrid post-quantum KEM for HPKE | <https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/> | CFRG | Adds Kyber support (as a hybrid with X25519) to HPKE RFC 9180 | |
 | XMSS: eXtended Merkle Signature Scheme | <https://www.rfc-editor.org/rfc/rfc8391> | CFRG | | RFC | 
-| ML-KEM for HPKE | <https://datatracker.ietf.org/doc/draft-connolly-cfrg-hpke-mlkem/> | CFRG | Adds ML-KEM to HPKE RFC 9180 |
+
 
 # PQC support in protocols and migration techniques
 
@@ -29,6 +29,8 @@
 | JOSE and COSE Encoding for Dilithium | <https://datatracker.ietf.org/doc/draft-ietf-cose-dilithium> | COSE | Dilithium in COSE/JOSE | |
 | JOSE and COSE Encoding for Falcon | <https://datatracker.ietf.org/doc/draft-ietf-cose-falcon> | COSE | FALCON in COSE/JOSE | |
 | JOSE and COSE Encoding for SPHINCS+ | <https://datatracker.ietf.org/doc/draft-ietf-cose-sphincs-plus> | COSE | SHPINCS+ in COSE/JOSE | |
+| Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) for JOSE and COSE | <https://datatracker.ietf.org/doc/draft-reddy-cose-jose-pqc-kem/> | Individual | ML-KEM in COSE/JOSE | |
+| PQ/T Hybrid KEM: HPKE with JOSE/COSE | <https://datatracker.ietf.org/doc/draft-reddy-cose-jose-pqc-hybrid-hpke/> | Individual | HPKE PQ/T Hybrids in COSE/JOSE | | 
 | Use of the HSS/LMS Hash-Based Signature Algorithm with CBOR Object Signing and Encryption (COSE) | <https://datatracker.ietf.org/doc/rfc8778/> | COSE | HSS / LMS in COSE | RFC |
 | Hybrid key exchange in JOSE and COSE | <https://datatracker.ietf.org/doc/draft-ra-cose-hybrid-encrypt/> | COSE | Using KEM combiners to compute Hybrid (PQC + Traditional) shared secret| |
 | Stateful Hash-based Signatures For DNSSEC | <https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/> | Individual | Stateful Hash-based Signatures For DNSSEC | Expired draft | 
