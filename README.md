@@ -51,7 +51,7 @@
 | LAMPS / CMS | Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS) | RFC | <https://www.rfc-editor.org/rfc/rfc8708.html> | | | 
 | LAMPS / CMS | Use of the SPHINCS+ Signature Algorithm in the Cryptographic Message Syntax (CMS) | In IESG Review | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-sphincs-plus/> | | |
 | MLS | MLS Ciphersuite using X-Wing KEM | Expired | <https://datatracker.ietf.org/doc/draft-mahy-mls-xwing/> | X25519Kyber768 / X-Wing for MLS | based on KEM in <https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/> |
-| OpenPGP | Post-Quantum Cryptography in OpenPGP | Active | <draft-ietf-openpgp-pqc/> | Post-Quantum public-key algorithm extension for the OpenPGP protocol | |
+| OpenPGP | Post-Quantum Cryptography in OpenPGP | Active | <https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/> | Post-Quantum public-key algorithm extension for the OpenPGP protocol | |
 | TLS | KEM-based Authentication for TLS 1.3 | Expired | <https://datatracker.ietf.org/doc/draft-celi-wiggers-tls-authkem/> | KEM-based authentication | | 
 | TLS | ML-KEM Post-Quantum Key Agreement for TLS 1.3 | Active Individual draft | <https://datatracker.ietf.org/doc/draft-connolly-tls-mlkem-key-agreement/> | Adds (non-hybrid) ML-KEM to TLS | |
 | TLS | X25519Kyber768Draft00 hybrid post-quantum key agreement | Expired | <https://datatracker.ietf.org/doc/draft-tls-westerbaan-xyber768d00> | X25519Kyber768 for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design. This was for the NIST Round 3 Draft version of Kyber for prototyping |
