@@ -58,6 +58,7 @@
 | TLS | Post-quantum hybrid ECDHE-MLKEM Key Agreement for TLSv1.3 | Active Individual draft | <https://datatracker.ietf.org/doc/draft-kwiatkowski-tls-ecdhe-mlkem/> | X25519MLKEM768, SecP256r1MLKEM768, and SecP384r1MLKEM1024 | Replaces the X25519KyberDraft00 draft |
 | TLS | SecP256r1Kyber768Draft00 hybrid post-quantum key agreement | Expired | <https://datatracker.ietf.org/doc/draft-kwiatkowski-tls-ecdhe-kyber/> | ECDHE-Kyber for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
 | TLS | Post-Quantum Guidance for TLS | Active Individual draft | <https://datatracker.ietf.org/doc/draft-farrell-tls-pqg/> | Recommendations for deplaying PQC in TLS | Recommends hybrid KEMs, and no action yet for signatures |
+| TLS | Use of ML-DSA in TLS 1.3 | Active Individual draft | <https://datatracker.ietf.org/doc/draft-tls-westerbaan-mldsa/> | |
 | TLS | Use of Composite ML-DSA in TLS 1.3 | Active Individual draft | <https://datatracker.ietf.org/doc/draft-reddy-tls-composite-mldsa/> | |
 | TLS | Use of SLH-DSA in TLS 1.3 | Active Individual draft | <https://datatracker.ietf.org/doc/draft-reddy-tls-slhdsa/> | |
 | SSH | Post-quantum Hybrid Key Exchange in SSH | Active individual draft | <https://datatracker.ietf.org/doc/draft-kampanakis-curdle-ssh-pq-ke> | P256/384/521 or X25519 with Kyber | Supported in OQS OpenSSH, wolfSSH, AWS Transfer Family. Details in [blog](https://aws.amazon.com/blogs/security/post-quantum-hybrid-sftp-file-transfers-using-aws-transfer-family/) |
