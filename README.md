@@ -15,14 +15,9 @@ _Statuses last checked against the IETF Datatracker on 2026-11-10._
 | ML-KEM Security Considerations | Active individual draft | <https://datatracker.ietf.org/doc/draft-sfluhrer-cfrg-ml-kem-security-considerations/> | CFRG | Guidance on using ML-KEM securely | |
 | Hybrid Post-Quantum Password Authenticated Key Exchange | Active individual draft | <https://datatracker.ietf.org/doc/draft-vos-cfrg-pqpake/> | CFRG | Hybrid PQ PAKE | |
 | Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: Chempat-X | Expired | <https://datatracker.ietf.org/doc/draft-josefsson-ntruprime-hybrid/> | Independent / CFRG | Hybrids of Streamlined NTRU Prime with X25519 | |
-| Kyber Post-Quantum KEM | Expired | <https://datatracker.ietf.org/doc/draft-cfrg-schwabe-kyber/> | CFRG | Description of the Kyber algorithm | No longer needed now that FIPS 203 exists |
 | Leighton-Micali Hash-Based Signatures | RFC | <https://www.rfc-editor.org/rfc/rfc8554> | CFRG | | RFC | 
 | Streamlined NTRU Prime: sntrup761 | Expired | <https://datatracker.ietf.org/doc/draft-josefsson-ntruprime-streamlined/> | Independent / CFRG | Streamlined NTRU Prime KEM | |
 | NTRU Key Encapsulation | Expired | <https://datatracker.ietf.org/doc/draft-fluhrer-cfrg-ntru/> | CFRG | Description of the NTRU algorithm | See also [NTRU KEM Security Considerations](https://datatracker.ietf.org/doc/draft-kosuge-cfrg-ntru-kem-security-considerations/) |
-| Quantum Safe Cryptography Key Information for CRYSTALS-Kyber | Expired | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-kyber/> | Individual | Kyber encodings | No longer needed now that the FIPS standards exist |
-| Quantum Safe Cryptography Key Information for CRYSTALS-Dilithium | Expired | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-dilithium/> | Individual | Dilithium encodings | No longer needed now that the FIPS standards exist |
-| Quantum Safe Cryptography Key Information for FALCON | Expired | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-falcon/> | Individual | FALCON encodings | No longer needed now that the FIPS standards exist |
-| Quantum Safe Cryptography Key Information for SPHINCS-PLUS | Expired | <https://datatracker.ietf.org/doc/draft-uni-qsckeys-sphincsplus/> | Individual | SPHINCS+ encodings | No longer needed now that the FIPS standards exist |
 | X25519Kyber768Draft00 hybrid post-quantum KEM for HPKE | Expired | <https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/> | CFRG | Adds Kyber support (as a hybrid with X25519) to HPKE RFC 9180 | This was for the NIST Round 3 Draft version of Kyber for prototyping |
 | XMSS: eXtended Merkle Signature Scheme | RFC | <https://www.rfc-editor.org/rfc/rfc8391> | CFRG | | RFC | 
 | Merkle Tree Ladder Mode (MTL) Signatures | Expired | <https://datatracker.ietf.org/doc/draft-harvey-cfrg-mtl-mode/> | CFRG / DNS | Amortize large PQ signatures across a large evolving series of messages | |
