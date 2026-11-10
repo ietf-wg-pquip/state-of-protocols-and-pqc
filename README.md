@@ -6,11 +6,11 @@ _Statuses last checked against the IETF Datatracker on 2026-11-10._
 |------------ |------- |----- |------------------------------ |------ |--------- |
 | Additional Parameter Sets for HSS/LMS Hash-Based Signatures | RFC 9858 | <https://datatracker.ietf.org/doc/rfc9858/> | CFRG | Parameter sets for the LMS signature primitive | |
 | Combiner function for hybrid key encapsulation mechanisms (Hybrid KEMs) | Expired | <https://datatracker.ietf.org/doc/draft-ounsworth-cfrg-kem-combiners/> | CFRG | | This draft led to the CFRG call for the area of hybrid combiners |
-| X-Wing: general-purpose hybrid post-quantum KEM | Active individual draft | <https://datatracker.ietf.org/doc/draft-connolly-cfrg-xwing-kem/> | CFRG / ISE | | Submitted to the Independent Submissions stream |
+| X-Wing: general-purpose hybrid post-quantum KEM | Active individual draft | <https://datatracker.ietf.org/doc/draft-connolly-cfrg-xwing-kem/> | CFRG | | Datatracker stream state: Submission Received |
 | Hybrid PQ/T Key Encapsulation Mechanisms | Active RG draft (waiting for shepherd) | <https://datatracker.ietf.org/doc/draft-irtf-cfrg-hybrid-kems/> | CFRG | Generic constructions (combiners) for hybrid PQ/T KEMs | Outcome of the CFRG work on hybrid combiners |
 | Concrete Hybrid PQ/T Key Encapsulation Mechanisms | Active RG draft (waiting for shepherd) | <https://datatracker.ietf.org/doc/draft-irtf-cfrg-concrete-hybrid-kems/> | CFRG | Concrete instantiations of the hybrid KEM constructions | |
 | Kemeleon Encodings | Active RG draft | <https://datatracker.ietf.org/doc/draft-irtf-cfrg-kemeleon/> | CFRG | Encodings of ML-KEM public keys and ciphertexts that are indistinguishable from random | |
-| Classic McEliece | Active individual draft | <https://datatracker.ietf.org/doc/draft-josefsson-mceliece/> | CFRG | Specification of the Classic McEliece KEM | See also draft-josefsson-cfrg-mceliece-considerations |
+| Classic McEliece | Active individual draft | <https://datatracker.ietf.org/doc/draft-josefsson-mceliece/> | CFRG | Specification of the Classic McEliece KEM | Transcription of the ISO Classic McEliece standard. See also draft-josefsson-cfrg-mceliece-considerations |
 | FrodoKEM: key encapsulation from learning with errors | Active individual draft | <https://datatracker.ietf.org/doc/draft-longa-cfrg-frodokem/> | CFRG | Specification of the FrodoKEM KEM | See also draft-longa-cfrg-frodokem-security-considerations |
 | ML-KEM Security Considerations | Active individual draft | <https://datatracker.ietf.org/doc/draft-sfluhrer-cfrg-ml-kem-security-considerations/> | CFRG | Guidance on using ML-KEM securely | |
 | Hybrid Post-Quantum Password Authenticated Key Exchange | Active individual draft | <https://datatracker.ietf.org/doc/draft-vos-cfrg-pqpake/> | CFRG | Hybrid PQ PAKE | |
@@ -33,16 +33,16 @@ Protocols and working groups with only one or two entries.
 | WG / Protocol | Draft title | Status | Link | Topic | Comments |
 |------------ |------- |----- |------------------------------ |------ |--------- |
 | ACME | ACME PQC Algorithm Negotiation | Expired | <https://datatracker.ietf.org/doc/draft-giron-acme-pqcnegotiation/> | Adds algorithm negotiation to ACME, including adding KEM PoP mechanisms | From on-list discussion, unclear whether ACME actually benefits from this. |
-| ACME | Quantum-Ready ACME Mechanism | Active individual draft | <https://datatracker.ietf.org/doc/draft-ar-acme-pqc-tlsjws/> | PQ signatures for ACME JWS and TLS challenge validation | |
-| DKIM | Post-Quantum Cryptography in DKIM | Active individual draft | <https://datatracker.ietf.org/doc/draft-buck-dkim-pq-dkim1/> | PQ signatures for DKIM | |
-| HPKE | Post-Quantum and Post-Quantum/Traditional Hybrid Algorithms for HPKE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/> | ML-KEM and hybrid KEMs for HPKE | Supersedes the X25519Kyber768Draft00 HPKE draft |
+| ACME | Quantum-Ready ACME Mechanism | Active individual draft | <https://datatracker.ietf.org/doc/draft-ar-acme-pqc-tlsjws/> | Updates RFC 8555: PQ or PQ/T hybrid TLS 1.3 key establishment, and PQ or PQ/T authentication for JWS and TLS | |
+| DKIM | Post-Quantum Cryptography in DKIM | Active individual draft | <https://datatracker.ietf.org/doc/draft-buck-dkim-pq-dkim1/> | Suitable PQ signature algorithms for DKIM, added as a separate signature alongside the traditional one | |
+| HPKE | Post-Quantum and Post-Quantum/Traditional Hybrid Algorithms for HPKE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/> | PQ and PQ/T hybrid KEMs for HPKE, plus a SHA-3 based KDF | |
 | HPKE | Hamming Quasi-Cyclic (HQC) Key Encapsulation Mechanisms for HPKE | Active individual draft | <https://datatracker.ietf.org/doc/draft-reddy-hpke-hqc/> | HQC for HPKE | |
-| KITTEN / Kerberos | Post-quantum Key Encapsulation with ML-KEM in PKINIT | Active individual draft | <https://datatracker.ietf.org/doc/draft-bokovoy-kitten-pkinit-pqc/> | ML-KEM in Kerberos PKINIT | |
-| LAKE / EDHOC | Quantum-Resistant Cipher Suites for LAKE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lake-pqsuites/> | PQ cipher suites for EDHOC | |
+| KITTEN / Kerberos | Post-quantum Key Encapsulation with ML-KEM in PKINIT | Adopted by KITTEN WG | <https://datatracker.ietf.org/doc/draft-bokovoy-kitten-pkinit-pqc/> | ML-KEM (and other KEMs) in Kerberos PKINIT | |
+| LAKE / EDHOC | Quantum-Resistant Cipher Suites for LAKE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lake-pqsuites/> | PQ cipher suites (ML-KEM, ML-DSA) for EDHOC | Also renames EDHOC to LAKE |
 | LAKE / EDHOC | KEM-based Authentication for EDHOC | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lake-authkem-edhoc/> | KEM-based authentication for EDHOC | |
 | OpenPGP | Post-Quantum Cryptography in OpenPGP | RFC 9980 | <https://datatracker.ietf.org/doc/rfc9980/> | Post-Quantum public-key algorithm extension for the OpenPGP protocol | |
 | OpenPGP | PQ/T Composite Schemes for OpenPGP using NIST and Brainpool Elliptic Curve Domain Parameters | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-openpgp-nist-bp-comp/> | ML-KEM and ML-DSA composites with NIST and Brainpool curves | Complements RFC 9980 |
-| SIDROPS / RPKI | Post-Quantum Authentication for the Resource Public Key Infrastructure | Active individual draft | <https://datatracker.ietf.org/doc/draft-li-sidrops-pqrpki/> | PQ signatures for RPKI | See also draft-yoshikawa-sidrops-pqc-rpki |
+| SIDROPS / RPKI | Post-Quantum Authentication for the Resource Public Key Infrastructure | Active individual draft | <https://datatracker.ietf.org/doc/draft-li-sidrops-pqrpki/> | Additive PQ authentication layer: one PQ signature per CA over a Merkle Tree Ladder of its Manifest | See also draft-yoshikawa-sidrops-pqc-rpki |
 | UTA | Post-Quantum Cryptography Recommendations for TLS-based Applications | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-uta-pqc-app/> | Guidance for applications using TLS on adopting PQC | |
 
 ## COSE / JOSE
@@ -56,7 +56,7 @@ Protocols and working groups with only one or two entries.
 | FN-DSA for JOSE and COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-falcon/> | FN-DSA (Falcon) in COSE/JOSE | |
 | SLH-DSA for JOSE and COSE | In IESG Review (AD Evaluation) | <https://datatracker.ietf.org/doc/draft-ietf-cose-sphincs-plus/> | SLH-DSA in COSE/JOSE | |
 | COSE HPKE PQ & PQ/T Algorithm Registrations | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-hpke-pq-pqt/> | HPKE PQ and PQ/T hybrid KEMs in COSE | Replaces draft-reddy-cose-jose-pqc-hybrid-hpke (split into COSE and JOSE documents) |
-| Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) for COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-pqc-kem/> | ML-KEM in COSE | Replaces draft-ietf-jose-pqc-kem (moved from JOSE to COSE) |
+| Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) for COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-pqc-kem/> | PQ KEMs in COSE | Replaces draft-ietf-jose-pqc-kem (moved from JOSE to COSE) |
 | PQ/T Hybrid Composite Signatures for JOSE and COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-jose-pq-composite-sigs/> | Composite ML-DSA in COSE/JOSE | JOSE WG document |
 | Use of the HSS/LMS Hash-Based Signature Algorithm with CBOR Object Signing and Encryption (COSE) | RFC | <https://datatracker.ietf.org/doc/rfc8778/> | HSS / LMS in COSE | |
 | Hybrid key exchange in JOSE and COSE | Expired | <https://datatracker.ietf.org/doc/draft-ra-cose-hybrid-encrypt/> | Using KEM combiners to compute Hybrid (PQC + Traditional) shared secret| |
@@ -67,16 +67,16 @@ Protocols and working groups with only one or two entries.
 |------- |----- |------------------------------ |------ |--------- |
 | Stateful Hash-based Signatures For DNSSEC | Expired | <https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/> | Stateful Hash-based Signatures For DNSSEC | | 
 | Module-Lattice Digital Signature Algorithm for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-westerbaan-dnssec-mldsa/> | ML-DSA for DNSSEC | |
-| Module-Lattice-Based Signatures with Merkle Tree Ladders (ML-DSA-MTL) for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-kaizer-dnsop-ml-dsa-mtl-dnssec/> | MTL mode applied to ML-DSA for DNSSEC | Builds on draft-harvey-cfrg-mtl-mode |
-| Considerations for Selecting Post-Quantum Algorithms for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-hoffman-pq-dnssec-considerations/> | Criteria for choosing PQ DNSSEC algorithms | |
+| Module-Lattice-Based Signatures with Merkle Tree Ladders (ML-DSA-MTL) for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-kaizer-dnsop-ml-dsa-mtl-dnssec/> | ML-DSA-44 with Merkle Tree Ladders for DNSSEC | See MTL mode above |
+| Considerations for Selecting Post-Quantum Algorithms for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-hoffman-pq-dnssec-considerations/> | Considerations for choosing PQ DNSSEC algorithms | Not intended to become an RFC |
 
 ## EMU (EAP)
 
 | Draft title | Status | Link | Topic | Comments |
 |------- |----- |------------------------------ |------ |--------- |
 | Post-Quantum Enhancements to TLS-Based EAP Methods | Active WG draft (WG consensus, waiting for write-up) | <https://datatracker.ietf.org/doc/draft-ietf-emu-pqc-eap-tls/> | PQC in EAP-TLS and other TLS-based EAP methods | |
-| Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) in EAP-AKA prime | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-emu-pqc-eapaka/> | ML-KEM in EAP-AKA' | |
-| Enhancing Security in EAP-AKA' with Hybrid Post-Quantum Cryptography | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-emu-hybrid-pqc-eapaka/> | Hybrid PQ/T key exchange in EAP-AKA' | |
+| Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) in EAP-AKA prime | Active WG draft (waiting for WG chair go-ahead) | <https://datatracker.ietf.org/doc/draft-ietf-emu-pqc-eapaka/> | PQ KEMs in EAP-AKA' FS | |
+| Enhancing Security in EAP-AKA' with Hybrid Post-Quantum Cryptography | Active WG draft (waiting for WG chair go-ahead) | <https://datatracker.ietf.org/doc/draft-ietf-emu-hybrid-pqc-eapaka/> | PQ/T hybrid KEMs in EAP-AKA' FS | |
 
 ## IPSECME (IPsec / IKEv2)
 
@@ -104,7 +104,7 @@ Protocols and working groups with only one or two entries.
 | Composite ML-KEM for use in X.509 Public Key Infrastructure | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem/> | Composite public and private keys and encryption | |
 | Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Fast-Fourier Transform over NTRU-Lattice-Based Digital Signature Algorithm (FN-DSA) | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-fn-dsa-certificates/> | FN-DSA in X.509 certificates | |
 | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for FrodoKEM | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-frodokem-certificates/> | FrodoKEM in X.509 certificates | |
-| Deprecating Expanded ML-DSA and ML-KEM Private Key Encodings | Active individual draft | <https://datatracker.ietf.org/doc/draft-rosomakho-lamps-mldsa-mlkem-seed-only/> | Seed-only private keys for ML-DSA and ML-KEM | |
+| Deprecating Expanded ML-DSA and ML-KEM Private Key Encodings | Active individual draft | <https://datatracker.ietf.org/doc/draft-rosomakho-lamps-mldsa-mlkem-seed-only/> | Require seed-only private keys for ML-DSA and ML-KEM interchange | Updates RFC 9881 and RFC 9935 |
 
 ### CMS
 
@@ -133,8 +133,8 @@ Protocols and working groups with only one or two entries.
 |------- |----- |------------------------------ |------ |--------- |
 | Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH | RFC 10042 | <https://datatracker.ietf.org/doc/rfc10042/> | mlkem768x25519-sha256, mlkem768nistp256-sha256, mlkem1024nistp384-sha384 | Was draft-ietf-sshm-mlkem-hybrid-kex; replaces draft-kampanakis-curdle-ssh-pq-ke |
 | Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512 | RFC 9941 | <https://datatracker.ietf.org/doc/rfc9941/> | Hybrid of Streamlined NTRU Prime sntrup761 and X25519 | Supported in OpenSSH. Details in see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0)  |
-| Post-Quantum Composite Signatures in SSH | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-sshm-composite-sigs/> | Composite ML-DSA host and user keys for SSH | |
-| SSH Support of ML-DSA | Active individual draft | <https://datatracker.ietf.org/doc/draft-sfluhrer-ssh-mldsa/> | ML-DSA host and user keys for SSH | |
+| Post-Quantum Composite Signatures in SSH | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-sshm-composite-sigs/> | Composite ML-DSA with Ed25519 or ECDSA for SSH | |
+| SSH Support of ML-DSA | Active individual draft | <https://datatracker.ietf.org/doc/draft-sfluhrer-ssh-mldsa/> | ML-DSA signatures in SSH | Updates RFC 4253 |
 
 ## TLS
 
@@ -149,7 +149,7 @@ Protocols and working groups with only one or two entries.
 | Use of ML-DSA in TLS 1.3 | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-tls-mldsa/> | | Replaces draft-tls-westerbaan-mldsa |
 | Use of Composite ML-DSA in TLS 1.3 | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-tls-composite-mldsa/> | | Replaces draft-reddy-tls-composite-mldsa |
 | Use of SLH-DSA in TLS 1.3 | Expired | <https://datatracker.ietf.org/doc/draft-reddy-tls-slhdsa/> | | |
-| KEM-based pre-shared-key handshakes for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-wiggers-tls-authkem-psk/> | AuthKEM variant for resumption / PSK | Companion to draft-celi-wiggers-tls-authkem |
+| KEM-based pre-shared-key handshakes for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-wiggers-tls-authkem-psk/> | Long-term KEM public keys in place of symmetric PSKs | Inspired by AuthKEM, but can be implemented independently |
 | HQC-KEM Key Agreement for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-preussmattsson-tls-hqckem/> | HQC for TLS | |
 | Post-Quantum Hybrid ML-KEM-1024/X448 Key Agreement for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-preussmattsson-tls-mlkem1024-x448/> | X448MLKEM1024 | |
 | Post-Quantum Traditional (PQ/T) Hybrid Authentication with Dual Certificates in TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-yusef-tls-pqt-dual-certs/> | Non-composite hybrid authentication with two certificates | |
@@ -187,7 +187,7 @@ Protocols and working groups with only one or two entries.
 | Hybrid Signature Spectrums | <https://datatracker.ietf.org/doc/rfc9955/> | PQUIP | Classification of design goals and security considerations for hybrid digital signature schemes | RFC 9955 |
 | Post-quantum cryptography use cases | <https://datatracker.ietf.org/doc/draft-vaira-pquip-pqc-use-cases/> | PQUIP | PQ use cases and migration strategies | Expired |
 | TLS Key Share Prediction | <https://datatracker.ietf.org/doc/draft-ietf-tls-key-share-prediction/> | TLS | Server can advertize its keyshare preference in DNS to avoid retries caused by ClientHello pre-generating a keyshare for the wrong algorithm | Adopted by WG. This is considered PQC-adjacent because it will smooth the transition to ML-KEM |
-| TLS Trust Anchor Identifiers | <https://datatracker.ietf.org/doc/draft-ietf-tls-trust-anchor-ids/> | TLS | Lets relying parties signal trusted CAs, enabling multiple (e.g. PQ and traditional) PKIs and smaller chains | Adopted by WG |
+| TLS Trust Anchor Identifiers | <https://datatracker.ietf.org/doc/draft-ietf-tls-trust-anchor-ids/> | TLS | Lets a TLS client or server select a certificate based on the peer's trusted CAs, more succinctly than the Certificate Authorities extension | Adopted by WG |
 | Merkle Tree Certificates Deployment Use Cases | <https://datatracker.ietf.org/doc/draft-ietf-plants-mtc-deploy-use-cases/> | PLANTS | Deployment scenarios for Merkle Tree Certificates | Adopted by WG |
 | PKCS #8: Private-Key Information Content Types | <https://datatracker.ietf.org/doc/rfc9939/> | LAMPS | Content types for carrying private keys, including PQ private keys | RFC 9939 |
 | Hash-Based Signatures: State and Backup Management | <https://datatracker.ietf.org/doc/rfc10033/> | PQUIP | Operational guidance for stateful hash-based signatures (LMS/HSS, XMSS) | RFC 10033 |
