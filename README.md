@@ -1,3 +1,5 @@
+_Statuses last checked against the IETF Datatracker on 2026-11-10._
+
 # Protocol-independent algorithm or cryptography specifications
 
 | Draft title | Status | Link | Working Group and/or protocol | Topic | Comments |
@@ -148,22 +150,13 @@
 
 # Algorithm names
 
-The first round of "winners" of the [NIST PQC competition](https://csrc.nist.gov/Projects/post-quantum-cryptography) are Dilithium, Falcon, SPHINCS+, and Kyber. As of August 23, 2023 with the publication of the Initial Public Drafts of FIPS 203, 204, and 205 we know that Dilithium is being renamed to "ML-DSA" (Module Lattice), SPHINCS+ to "SLH-DSA" (StateLess Hash), and Kyber to "ML-KEM (Module Lattice).
+NIST published the final versions of [FIPS 203](https://csrc.nist.gov/pubs/fips/203/final) (ML-KEM, formerly Kyber), [FIPS 204](https://csrc.nist.gov/pubs/fips/204/final) (ML-DSA, formerly Dilithium) and [FIPS 205](https://csrc.nist.gov/pubs/fips/205/final) (SLH-DSA, formerly SPHINCS+) in August 2024. FN-DSA (formerly Falcon) will be specified in FIPS 206. In March 2025 NIST [selected HQC](https://csrc.nist.gov/News/2025/hqc-announced-as-a-4th-round-selection) as an additional KEM. IETF documents should use the final FIPS names (ML-KEM, ML-DSA, SLH-DSA, FN-DSA).
 
-However, the community wants to avoid the situation where we over-eagerly adopt the new names, then see a compatibility-breaking change in a future iteration of the FIPS draft standards, and then have multiple non-compatible algorithms with the same name. 
+Historical note: before the FIPS were final, the IETF used the following convention to distinguish versions, using Dilithium -> ML-DSA as an example. Older drafts in the tables above may still use these names.
 
-The IETF will use the following naming convention to refer to different versions of the NIST PQC candidate algorithms; using Dilithium -> ML-DSA as an example:
-
-* _**Dilithium_round1/2/3**_ -- means “as submitted to round 1, 2, or 3 of the NIST PQC competition”. “Dilithium” is a short-hand for "Dilithium_round3".
-
-* _**ML-DSA-ipd**_ – FIPS 204 Initial Public Draft. Note this matches the PDF file name:
-https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.ipd.pdf. For protocols that define a separate algorithm identifier per parameter set, it is encouraged to append the parameter ID to this string to form the string describing the algorithm identifier, e.g.,  _**ML-DSA-ipd-44**_.
-
-* _**ML-DSA**_ – reserved for final FIPS 204.
-
-The equivalent names are applied to Falcon, SPHINCS+, and Kyber.
-
-As well, similar naming conventions would apply to other NIST PQC such as Classic McEliece, HQC, Bike which are progressing through Round 4, as well as to new algorithms that come from the 2nd call for signature algorithms.
+* _**Dilithium_round1/2/3**_ -- "as submitted to round 1, 2, or 3 of the NIST PQC competition". "Dilithium" is a short-hand for "Dilithium_round3".
+* _**ML-DSA-ipd**_ -- FIPS 204 Initial Public Draft (e.g. _**ML-DSA-ipd-44**_ for a specific parameter set).
+* _**ML-DSA**_ -- final FIPS 204.
 
 
 # Implementations and interop testing for these specs
@@ -171,7 +164,7 @@ As well, similar naming conventions would apply to other NIST PQC such as Classi
 The following is an informal list of implementations of the RFCs and drafts above. This list also is for sites that have interoperability reports for implementations
 
 - [IETF Hackathon - PQC Certificates](https://github.com/IETF-Hackathon/pqc-certificates)
-- [IETF PQC Hackathon Interoperability Results](https://ietf-hackathon.github.io/pqc-certificates/pqc_hackathon_results_certs_r3.html)
+- [IETF PQC Hackathon Interoperability Results](https://ietf-hackathon.github.io/pqc-certificates/)
 
 This is an appropriate place to list interop events and hackathons that relate to PQC algorithms.
 
@@ -183,13 +176,13 @@ This table lists IETF Security Area protocols with "no action needed", typically
 | Protocol | RFC       | Working Group  | Cryptographic dependencies | Comment |
 |--------- |---------- |--------------- |--------------------------- |-------- |
 | ACME     | <https://datatracker.ietf.org/doc/rfc8555/>   | ACME           | PKCS #10 (RFC 2986), JOSE/JWS (RFC 7515), TLS (RFC 8446) | |
-| CMC      | <https://datatracker.ietf.org/doc/rfc5272/>   | LAMPS          | CMS (RFC 5652), PKCS #10 (RFC 2986) |         |
+| CMC      | <https://datatracker.ietf.org/doc/rfc10002/>  | LAMPS          | CMS (RFC 5652), PKCS #10 (RFC 2986) | RFC 10002 obsoletes RFC 5272 |
 | QUIC     | <https://datatracker.ietf.org/doc/rfc9000/>   | QUIC           | TLS 1.3 (RFC 8446)          | QUIC is pretty specific to TLS 1.3, so probably needs an update in lockstep with each TLS update |
 | DoH      | <https://datatracker.ietf.org/doc/rfc8484/>   | DOH            | TLS (RFC 8446)              |         |
 | EST      | <https://datatracker.ietf.org/doc/rfc7030/>   | LAMPS          | CMC (RFC 5272), CMS (RFC 5652), PKCS #10 (RFC 2986), TLS (RFC 8446) |         |
 | HTTPS    | <https://datatracker.ietf.org/doc/rfc9110/>   | HTTPbis       | TLS (RFC 8446)              |         |
 | SCEP     | <https://datatracker.ietf.org/doc/rfc8894/>   | LAMPS (?)      | CMS (RFC 5652), PKCS #10 (RFC 2986) |  |
-| S/MIME   | <https://datatracker.ietf.org/doc/rfc5751/>   | LAMPS        | CMS (RFC 5652)               | Section 4.1 explicitly lists RSA, DSA, SHA-1. So maybe this needs an update to only modern non-PQC crypto. |
+| S/MIME   | <https://datatracker.ietf.org/doc/rfc8551/>   | LAMPS        | CMS (RFC 5652)               | RFC 8551 obsoletes RFC 5751. Its algorithm requirements are being revised in [draft-ietf-lamps-rfc8551bis](https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc8551bis/), which is the place to add PQC algorithms. |
 
 # Other Security protocols with no PQC-specific action needed
 This table lists IETF Security protocols with "no action needed", typically because that protocol does not itself specify any cryptographic algorithms but instead embeds other IETF cryptographic protocols. Therefore no action is needed for that protocol because it will inherit PQC as soon as its cryptographic dependencies support it. 
