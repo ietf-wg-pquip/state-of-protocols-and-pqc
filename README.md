@@ -47,106 +47,113 @@ Protocols and working groups with only one or two entries.
 
 ## COSE / JOSE
 
-| WG / Protocol | Draft title | Status | Link | Topic | Comments |
-|------------ |------- |----- |------------------------------ |------ |--------- |
-| COSE | COSE Key and JSON Web Key Representation for Key Encapsulation Mechanism (KEM) of Hybrid Public Key Encryption (HPKE) | Expired | <https://datatracker.ietf.org/doc/draft-ajitomi-cose-cose-key-jwk-hpke-kem/> | KEM wrapper for COSE | |
-| COSE | COSE Kyber | Expired | <https://datatracker.ietf.org/doc/draft-steele-cose-kyber/> | Defines encoding and registry for Kyber | |
-| COSE | JOSE and COSE Encoding for Post-Quantum Signatures | Expired | <https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/> | JSON and CBOR serializations for several Post-Quantum Cryptography (PQC) based suites including CRYSTALS Dilithium, Falcon, and SPHINCS+. | No longer current, Split into one draft per signature suite - see relevant COSE items below |
-| COSE | ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE) | RFC 9964 | <https://datatracker.ietf.org/doc/rfc9964/> | ML-DSA in COSE/JOSE | Was draft-ietf-cose-dilithium |
-| COSE | FN-DSA for JOSE and COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-falcon/> | FN-DSA (Falcon) in COSE/JOSE | |
-| COSE | SLH-DSA for JOSE and COSE | In IESG Review (AD Evaluation) | <https://datatracker.ietf.org/doc/draft-ietf-cose-sphincs-plus/> | SLH-DSA in COSE/JOSE | |
-| COSE | COSE HPKE PQ & PQ/T Algorithm Registrations | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-hpke-pq-pqt/> | HPKE PQ and PQ/T hybrid KEMs in COSE | Replaces draft-reddy-cose-jose-pqc-hybrid-hpke (split into COSE and JOSE documents) |
-| COSE | Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) for COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-pqc-kem/> | ML-KEM in COSE | Replaces draft-ietf-jose-pqc-kem (moved from JOSE to COSE) |
-| COSE / JOSE | PQ/T Hybrid Composite Signatures for JOSE and COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-jose-pq-composite-sigs/> | Composite ML-DSA in COSE/JOSE | JOSE WG document |
-| COSE | Use of the HSS/LMS Hash-Based Signature Algorithm with CBOR Object Signing and Encryption (COSE) | RFC | <https://datatracker.ietf.org/doc/rfc8778/> | HSS / LMS in COSE | |
-| COSE | Hybrid key exchange in JOSE and COSE | Expired | <https://datatracker.ietf.org/doc/draft-ra-cose-hybrid-encrypt/> | Using KEM combiners to compute Hybrid (PQC + Traditional) shared secret| |
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| COSE Key and JSON Web Key Representation for Key Encapsulation Mechanism (KEM) of Hybrid Public Key Encryption (HPKE) | Expired | <https://datatracker.ietf.org/doc/draft-ajitomi-cose-cose-key-jwk-hpke-kem/> | KEM wrapper for COSE | |
+| COSE Kyber | Expired | <https://datatracker.ietf.org/doc/draft-steele-cose-kyber/> | Defines encoding and registry for Kyber | |
+| JOSE and COSE Encoding for Post-Quantum Signatures | Expired | <https://datatracker.ietf.org/doc/draft-ietf-cose-post-quantum-signatures/> | JSON and CBOR serializations for several Post-Quantum Cryptography (PQC) based suites including CRYSTALS Dilithium, Falcon, and SPHINCS+. | No longer current, Split into one draft per signature suite - see relevant COSE items below |
+| ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE) | RFC 9964 | <https://datatracker.ietf.org/doc/rfc9964/> | ML-DSA in COSE/JOSE | Was draft-ietf-cose-dilithium |
+| FN-DSA for JOSE and COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-falcon/> | FN-DSA (Falcon) in COSE/JOSE | |
+| SLH-DSA for JOSE and COSE | In IESG Review (AD Evaluation) | <https://datatracker.ietf.org/doc/draft-ietf-cose-sphincs-plus/> | SLH-DSA in COSE/JOSE | |
+| COSE HPKE PQ & PQ/T Algorithm Registrations | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-hpke-pq-pqt/> | HPKE PQ and PQ/T hybrid KEMs in COSE | Replaces draft-reddy-cose-jose-pqc-hybrid-hpke (split into COSE and JOSE documents) |
+| Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) for COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-cose-pqc-kem/> | ML-KEM in COSE | Replaces draft-ietf-jose-pqc-kem (moved from JOSE to COSE) |
+| PQ/T Hybrid Composite Signatures for JOSE and COSE | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-jose-pq-composite-sigs/> | Composite ML-DSA in COSE/JOSE | JOSE WG document |
+| Use of the HSS/LMS Hash-Based Signature Algorithm with CBOR Object Signing and Encryption (COSE) | RFC | <https://datatracker.ietf.org/doc/rfc8778/> | HSS / LMS in COSE | |
+| Hybrid key exchange in JOSE and COSE | Expired | <https://datatracker.ietf.org/doc/draft-ra-cose-hybrid-encrypt/> | Using KEM combiners to compute Hybrid (PQC + Traditional) shared secret| |
 
 ## DNSOP (DNSSEC)
 
-| WG / Protocol | Draft title | Status | Link | Topic | Comments |
-|------------ |------- |----- |------------------------------ |------ |--------- |
-| DNSOP | Stateful Hash-based Signatures For DNSSEC | Expired | <https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/> | Stateful Hash-based Signatures For DNSSEC | | 
-| DNSOP | Module-Lattice Digital Signature Algorithm for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-westerbaan-dnssec-mldsa/> | ML-DSA for DNSSEC | |
-| DNSOP | Module-Lattice-Based Signatures with Merkle Tree Ladders (ML-DSA-MTL) for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-kaizer-dnsop-ml-dsa-mtl-dnssec/> | MTL mode applied to ML-DSA for DNSSEC | Builds on draft-harvey-cfrg-mtl-mode |
-| DNSOP | Considerations for Selecting Post-Quantum Algorithms for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-hoffman-pq-dnssec-considerations/> | Criteria for choosing PQ DNSSEC algorithms | |
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| Stateful Hash-based Signatures For DNSSEC | Expired | <https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/> | Stateful Hash-based Signatures For DNSSEC | | 
+| Module-Lattice Digital Signature Algorithm for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-westerbaan-dnssec-mldsa/> | ML-DSA for DNSSEC | |
+| Module-Lattice-Based Signatures with Merkle Tree Ladders (ML-DSA-MTL) for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-kaizer-dnsop-ml-dsa-mtl-dnssec/> | MTL mode applied to ML-DSA for DNSSEC | Builds on draft-harvey-cfrg-mtl-mode |
+| Considerations for Selecting Post-Quantum Algorithms for DNSSEC | Active individual draft | <https://datatracker.ietf.org/doc/draft-hoffman-pq-dnssec-considerations/> | Criteria for choosing PQ DNSSEC algorithms | |
 
 ## EMU (EAP)
 
-| WG / Protocol | Draft title | Status | Link | Topic | Comments |
-|------------ |------- |----- |------------------------------ |------ |--------- |
-| EMU / EAP | Post-Quantum Enhancements to TLS-Based EAP Methods | Active WG draft (WG consensus, waiting for write-up) | <https://datatracker.ietf.org/doc/draft-ietf-emu-pqc-eap-tls/> | PQC in EAP-TLS and other TLS-based EAP methods | |
-| EMU / EAP | Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) in EAP-AKA prime | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-emu-pqc-eapaka/> | ML-KEM in EAP-AKA' | |
-| EMU / EAP | Enhancing Security in EAP-AKA' with Hybrid Post-Quantum Cryptography | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-emu-hybrid-pqc-eapaka/> | Hybrid PQ/T key exchange in EAP-AKA' | |
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| Post-Quantum Enhancements to TLS-Based EAP Methods | Active WG draft (WG consensus, waiting for write-up) | <https://datatracker.ietf.org/doc/draft-ietf-emu-pqc-eap-tls/> | PQC in EAP-TLS and other TLS-based EAP methods | |
+| Post-Quantum Key Encapsulation Mechanisms (PQ KEMs) in EAP-AKA prime | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-emu-pqc-eapaka/> | ML-KEM in EAP-AKA' | |
+| Enhancing Security in EAP-AKA' with Hybrid Post-Quantum Cryptography | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-emu-hybrid-pqc-eapaka/> | Hybrid PQ/T key exchange in EAP-AKA' | |
 
 ## IPSECME (IPsec / IKEv2)
 
-| WG / Protocol | Draft title | Status | Link | Topic | Comments |
-|------------ |------- |----- |------------------------------ |------ |--------- |
-| IPSECME / IPsec / IKEv2 | Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2) | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/> | ML-KEM for IKEv2, optionally as a PQ/T hybrid via additional key exchanges | Replaces draft-kampanakis-ml-kem-ikev2 |
-| IPSECME / IPsec / IKEv2 | Signature Authentication in the Internet Key Exchange Version 2 (IKEv2) using PQC | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-pqc-auth/> | ML-DSA and SLH-DSA authentication in IKEv2 without changes to existing IKE operations | Replaces draft-reddy-ipsecme-ikev2-pqc-auth |
-| IPSECME / IPsec / IKEv2 | Post-Quantum Traditional (PQ/T) Hybrid PKI Authentication in IKEv2 | Active Individual draft | <https://datatracker.ietf.org/doc/draft-hu-ipsecme-pqt-hybrid-auth/> | Allows PQ/T hybrid auth either via composite certificates, or multiple certificates| |
-| IPSECME / IPsec / IKEv2 | Post-quantum Key Exchange in IKEv2 with FrodoKEM | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-hybrid-kem-ikev2-frodo/> | FrodoKEM for IKEv2 | Replaces draft-wang-hybrid-kem-ikev2-frodo |
-| IPSECME / IPsec / IKEv2 | Use of Composite Signatures in IKEv2 | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-pq-hybrid-auth/> | Composite ML-DSA authentication in IKEv2 | |
-| IPSECME / IPsec / IKEv2 | Post-Quantum Key Exchange with HQC in IKEv2 | Active individual draft | <https://datatracker.ietf.org/doc/draft-reddy-ipsecme-ikev2-hqc/> | HQC for IKEv2 | |
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2) | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/> | ML-KEM for IKEv2, optionally as a PQ/T hybrid via additional key exchanges | Replaces draft-kampanakis-ml-kem-ikev2 |
+| Signature Authentication in the Internet Key Exchange Version 2 (IKEv2) using PQC | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-pqc-auth/> | ML-DSA and SLH-DSA authentication in IKEv2 without changes to existing IKE operations | Replaces draft-reddy-ipsecme-ikev2-pqc-auth |
+| Post-Quantum Traditional (PQ/T) Hybrid PKI Authentication in IKEv2 | Active Individual draft | <https://datatracker.ietf.org/doc/draft-hu-ipsecme-pqt-hybrid-auth/> | Allows PQ/T hybrid auth either via composite certificates, or multiple certificates| |
+| Post-quantum Key Exchange in IKEv2 with FrodoKEM | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-hybrid-kem-ikev2-frodo/> | FrodoKEM for IKEv2 | Replaces draft-wang-hybrid-kem-ikev2-frodo |
+| Use of Composite Signatures in IKEv2 | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-ipsecme-pq-hybrid-auth/> | Composite ML-DSA authentication in IKEv2 | |
+| Post-Quantum Key Exchange with HQC in IKEv2 | Active individual draft | <https://datatracker.ietf.org/doc/draft-reddy-ipsecme-ikev2-hqc/> | HQC for IKEv2 | |
 
 ## LAMPS (X.509 / CMS)
 
-| WG / Protocol | Draft title | Status | Link | Topic | Comments |
-|------------ |------- |----- |------------------------------ |------ |--------- |
-| LAMPS / X.509 | Use of the HSS and XMSS Hash-Based Signature Algorithms in Internet X.509 Public Key Infrastructure | RFC 9802 | <https://datatracker.ietf.org/doc/rfc9802/> | OIDs for HSS/LMS and XMSS for use in PKIX | |
-| LAMPS / X.509 | Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA) | RFC 9909 | <https://datatracker.ietf.org/doc/rfc9909/> | SLH-DSA in X.509 certificates | |
-| LAMPS / X.509 | Algorithm Identifiers for NIST's PQC Algorithms for Use in the Internet X.509 Public Key Infrastructure | Expired | <https://datatracker.ietf.org/doc/draft-turner-lamps-nist-pqc-kem-certificates/> | | |
-| LAMPS / X.509 | Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Module-Lattice-Based Digital Signature Algorithm (ML-DSA) | RFC 9881 | <https://datatracker.ietf.org/doc/rfc9881/> | ML-DSA in X.509 certificates | |
-| LAMPS / X.509 | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) | RFC 9935 | <https://datatracker.ietf.org/doc/rfc9935/> | ML-KEM in X.509 certificates | |
-| LAMPS / X.509 | Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for Use in X.509 Public Key Infrastructure | RFC 10073 | <https://datatracker.ietf.org/doc/rfc10073/> | Composite public and private keys and signatures | |
-| LAMPS / X.509 | Composite ML-KEM for use in X.509 Public Key Infrastructure | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem/> | Composite public and private keys and encryption | |
-| LAMPS / X.509 | Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Fast-Fourier Transform over NTRU-Lattice-Based Digital Signature Algorithm (FN-DSA) | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-fn-dsa-certificates/> | FN-DSA in X.509 certificates | |
-| LAMPS / X.509 | Internet X.509 Public Key Infrastructure - Algorithm Identifiers for FrodoKEM | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-frodokem-certificates/> | FrodoKEM in X.509 certificates | |
-| LAMPS / CMS | Use of ML-KEM in the Cryptographic Message Syntax (CMS) | RFC 9936 | <https://datatracker.ietf.org/doc/rfc9936/> | | |
-| LAMPS / CMS | Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | RFC 9882 | <https://datatracker.ietf.org/doc/rfc9882/> | | |
-| LAMPS / CMS | Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for Use in the Cryptographic Message Syntax (CMS) | RFC 10082 | <https://datatracker.ietf.org/doc/rfc10082/> | | |
-| LAMPS / CMS | Composite ML-KEM for use in Cryptographic Message Syntax (CMS) | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-composite-kem/> | | |
-| LAMPS / CMS | Use of the FN-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-fn-dsa/> | | |
-| LAMPS / CMS | Use of FrodoKEM in the Cryptographic Message Syntax | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-frodokem/> | | |
-| LAMPS | Deprecating Expanded ML-DSA and ML-KEM Private Key Encodings | Active individual draft | <https://datatracker.ietf.org/doc/draft-rosomakho-lamps-mldsa-mlkem-seed-only/> | Seed-only private keys for ML-DSA and ML-KEM | |
-| LAMPS / CMS | Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS) | RFC | <https://www.rfc-editor.org/rfc/rfc8708.html> | | | 
-| LAMPS / CMS | Use of the SLH-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | RFC 9814 | <https://datatracker.ietf.org/doc/rfc9814/> | | |
+### X.509
+
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| Use of the HSS and XMSS Hash-Based Signature Algorithms in Internet X.509 Public Key Infrastructure | RFC 9802 | <https://datatracker.ietf.org/doc/rfc9802/> | OIDs for HSS/LMS and XMSS for use in PKIX | |
+| Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA) | RFC 9909 | <https://datatracker.ietf.org/doc/rfc9909/> | SLH-DSA in X.509 certificates | |
+| Algorithm Identifiers for NIST's PQC Algorithms for Use in the Internet X.509 Public Key Infrastructure | Expired | <https://datatracker.ietf.org/doc/draft-turner-lamps-nist-pqc-kem-certificates/> | | |
+| Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Module-Lattice-Based Digital Signature Algorithm (ML-DSA) | RFC 9881 | <https://datatracker.ietf.org/doc/rfc9881/> | ML-DSA in X.509 certificates | |
+| Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) | RFC 9935 | <https://datatracker.ietf.org/doc/rfc9935/> | ML-KEM in X.509 certificates | |
+| Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for Use in X.509 Public Key Infrastructure | RFC 10073 | <https://datatracker.ietf.org/doc/rfc10073/> | Composite public and private keys and signatures | |
+| Composite ML-KEM for use in X.509 Public Key Infrastructure | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem/> | Composite public and private keys and encryption | |
+| Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Fast-Fourier Transform over NTRU-Lattice-Based Digital Signature Algorithm (FN-DSA) | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-fn-dsa-certificates/> | FN-DSA in X.509 certificates | |
+| Internet X.509 Public Key Infrastructure - Algorithm Identifiers for FrodoKEM | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-frodokem-certificates/> | FrodoKEM in X.509 certificates | |
+| Deprecating Expanded ML-DSA and ML-KEM Private Key Encodings | Active individual draft | <https://datatracker.ietf.org/doc/draft-rosomakho-lamps-mldsa-mlkem-seed-only/> | Seed-only private keys for ML-DSA and ML-KEM | |
+
+### CMS
+
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| Use of ML-KEM in the Cryptographic Message Syntax (CMS) | RFC 9936 | <https://datatracker.ietf.org/doc/rfc9936/> | | |
+| Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | RFC 9882 | <https://datatracker.ietf.org/doc/rfc9882/> | | |
+| Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for Use in the Cryptographic Message Syntax (CMS) | RFC 10082 | <https://datatracker.ietf.org/doc/rfc10082/> | | |
+| Composite ML-KEM for use in Cryptographic Message Syntax (CMS) | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-composite-kem/> | | |
+| Use of the FN-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-fn-dsa/> | | |
+| Use of FrodoKEM in the Cryptographic Message Syntax | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-frodokem/> | | |
+| Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS) | RFC | <https://www.rfc-editor.org/rfc/rfc8708.html> | | | 
+| Use of the SLH-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | RFC 9814 | <https://datatracker.ietf.org/doc/rfc9814/> | | |
 
 ## MLS
 
-| WG / Protocol | Draft title | Status | Link | Topic | Comments |
-|------------ |------- |----- |------------------------------ |------ |--------- |
-| MLS | MLS Ciphersuite using X-Wing KEM | Replaced | <https://datatracker.ietf.org/doc/draft-mahy-mls-xwing/> | X-Wing for MLS | Replaced by draft-mahy-mls-pq, which became draft-ietf-mls-pq-ciphersuites |
-| MLS | Amortized PQ MLS Combiner | Expired WG draft | <https://datatracker.ietf.org/doc/draft-ietf-mls-combiner/> | Combines traditional MLS session with a PQ session | Replaces draft-hale-mls-combiner |
-| MLS | ML-KEM and Hybrid Cipher Suites for Messaging Layer Security | In IESG Review (Publication Requested) | <https://datatracker.ietf.org/doc/draft-ietf-mls-pq-ciphersuites/> | Post-quantum KEM Cipher Suites | |
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| MLS Ciphersuite using X-Wing KEM | Replaced | <https://datatracker.ietf.org/doc/draft-mahy-mls-xwing/> | X-Wing for MLS | Replaced by draft-mahy-mls-pq, which became draft-ietf-mls-pq-ciphersuites |
+| Amortized PQ MLS Combiner | Expired WG draft | <https://datatracker.ietf.org/doc/draft-ietf-mls-combiner/> | Combines traditional MLS session with a PQ session | Replaces draft-hale-mls-combiner |
+| ML-KEM and Hybrid Cipher Suites for Messaging Layer Security | In IESG Review (Publication Requested) | <https://datatracker.ietf.org/doc/draft-ietf-mls-pq-ciphersuites/> | Post-quantum KEM Cipher Suites | |
 
 ## SSHM (SSH)
 
-| WG / Protocol | Draft title | Status | Link | Topic | Comments |
-|------------ |------- |----- |------------------------------ |------ |--------- |
-| SSH | Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH | RFC 10042 | <https://datatracker.ietf.org/doc/rfc10042/> | mlkem768x25519-sha256, mlkem768nistp256-sha256, mlkem1024nistp384-sha384 | Was draft-ietf-sshm-mlkem-hybrid-kex; replaces draft-kampanakis-curdle-ssh-pq-ke |
-| SSH | Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512 | RFC 9941 | <https://datatracker.ietf.org/doc/rfc9941/> | Hybrid of Streamlined NTRU Prime sntrup761 and X25519 | Supported in OpenSSH. Details in see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0)  |
-| SSH | Post-Quantum Composite Signatures in SSH | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-sshm-composite-sigs/> | Composite ML-DSA host and user keys for SSH | |
-| SSH | SSH Support of ML-DSA | Active individual draft | <https://datatracker.ietf.org/doc/draft-sfluhrer-ssh-mldsa/> | ML-DSA host and user keys for SSH | |
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH | RFC 10042 | <https://datatracker.ietf.org/doc/rfc10042/> | mlkem768x25519-sha256, mlkem768nistp256-sha256, mlkem1024nistp384-sha384 | Was draft-ietf-sshm-mlkem-hybrid-kex; replaces draft-kampanakis-curdle-ssh-pq-ke |
+| Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512 | RFC 9941 | <https://datatracker.ietf.org/doc/rfc9941/> | Hybrid of Streamlined NTRU Prime sntrup761 and X25519 | Supported in OpenSSH. Details in see [OpenSSH implementation of `sntrup761x25519-sha512@openssh.com`](https://www.openssh.com/txt/release-9.0)  |
+| Post-Quantum Composite Signatures in SSH | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-sshm-composite-sigs/> | Composite ML-DSA host and user keys for SSH | |
+| SSH Support of ML-DSA | Active individual draft | <https://datatracker.ietf.org/doc/draft-sfluhrer-ssh-mldsa/> | ML-DSA host and user keys for SSH | |
 
 ## TLS
 
-| WG / Protocol | Draft title | Status | Link | Topic | Comments |
-|------------ |------- |----- |------------------------------ |------ |--------- |
-| TLS | KEM-based Authentication for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-celi-wiggers-tls-authkem/> | KEM-based authentication | |
-| TLS | ML-KEM Post-Quantum Key Agreement for TLS 1.3 | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem/> | Adds (non-hybrid) ML-KEM to TLS | Replaces draft-connolly-tls-mlkem-key-agreement |
-| TLS | X25519Kyber768Draft00 hybrid post-quantum key agreement | Expired | <https://datatracker.ietf.org/doc/draft-tls-westerbaan-xyber768d00> | X25519Kyber768 for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design. This was for the NIST Round 3 Draft version of Kyber for prototyping |
-| TLS | Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3 | RFC 10024 | <https://datatracker.ietf.org/doc/rfc10024/> | X25519MLKEM768, SecP256r1MLKEM768, and SecP384r1MLKEM1024 | Was draft-ietf-tls-ecdhe-mlkem; replaces draft-kwiatkowski-tls-ecdhe-mlkem and X25519Kyber768Draft00 |
-| TLS | SecP256r1Kyber768Draft00 hybrid post-quantum key agreement | Expired | <https://datatracker.ietf.org/doc/draft-kwiatkowski-tls-ecdhe-kyber/> | ECDHE-Kyber for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
-| TLS | Post-Quantum Guidance for TLS | Expired | <https://datatracker.ietf.org/doc/draft-farrell-tls-pqg/> | Recommendations for deploying PQC in TLS | Recommends hybrid KEMs, and no action yet for signatures |
-| TLS | Use of ML-DSA in TLS 1.3 | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-tls-mldsa/> | | Replaces draft-tls-westerbaan-mldsa |
-| TLS | Use of Composite ML-DSA in TLS 1.3 | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-tls-composite-mldsa/> | | Replaces draft-reddy-tls-composite-mldsa |
-| TLS | Use of SLH-DSA in TLS 1.3 | Expired | <https://datatracker.ietf.org/doc/draft-reddy-tls-slhdsa/> | | |
-| TLS | KEM-based pre-shared-key handshakes for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-wiggers-tls-authkem-psk/> | AuthKEM variant for resumption / PSK | Companion to draft-celi-wiggers-tls-authkem |
-| TLS | HQC-KEM Key Agreement for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-preussmattsson-tls-hqckem/> | HQC for TLS | |
-| TLS | Post-Quantum Hybrid ML-KEM-1024/X448 Key Agreement for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-preussmattsson-tls-mlkem1024-x448/> | X448MLKEM1024 | |
-| TLS | Post-Quantum Traditional (PQ/T) Hybrid Authentication with Dual Certificates in TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-yusef-tls-pqt-dual-certs/> | Non-composite hybrid authentication with two certificates | |
-| TLS | PQC Continuity: Downgrade Protection for TLS Servers Migrating to PQC | Active individual draft | <https://datatracker.ietf.org/doc/draft-sheffer-tls-pqc-continuity/> | Prevents downgrade to traditional authentication | |
+| Draft title | Status | Link | Topic | Comments |
+|------- |----- |------------------------------ |------ |--------- |
+| KEM-based Authentication for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-celi-wiggers-tls-authkem/> | KEM-based authentication | |
+| ML-KEM Post-Quantum Key Agreement for TLS 1.3 | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem/> | Adds (non-hybrid) ML-KEM to TLS | Replaces draft-connolly-tls-mlkem-key-agreement |
+| X25519Kyber768Draft00 hybrid post-quantum key agreement | Expired | <https://datatracker.ietf.org/doc/draft-tls-westerbaan-xyber768d00> | X25519Kyber768 for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design. This was for the NIST Round 3 Draft version of Kyber for prototyping |
+| Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3 | RFC 10024 | <https://datatracker.ietf.org/doc/rfc10024/> | X25519MLKEM768, SecP256r1MLKEM768, and SecP384r1MLKEM1024 | Was draft-ietf-tls-ecdhe-mlkem; replaces draft-kwiatkowski-tls-ecdhe-mlkem and X25519Kyber768Draft00 |
+| SecP256r1Kyber768Draft00 hybrid post-quantum key agreement | Expired | <https://datatracker.ietf.org/doc/draft-kwiatkowski-tls-ecdhe-kyber/> | ECDHE-Kyber for TLS 1.3. | Instantiation of draft-ietf-tls-hybrid-design |
+| Post-Quantum Guidance for TLS | Expired | <https://datatracker.ietf.org/doc/draft-farrell-tls-pqg/> | Recommendations for deploying PQC in TLS | Recommends hybrid KEMs, and no action yet for signatures |
+| Use of ML-DSA in TLS 1.3 | In RFC Editor queue | <https://datatracker.ietf.org/doc/draft-ietf-tls-mldsa/> | | Replaces draft-tls-westerbaan-mldsa |
+| Use of Composite ML-DSA in TLS 1.3 | Active WG draft | <https://datatracker.ietf.org/doc/draft-ietf-tls-composite-mldsa/> | | Replaces draft-reddy-tls-composite-mldsa |
+| Use of SLH-DSA in TLS 1.3 | Expired | <https://datatracker.ietf.org/doc/draft-reddy-tls-slhdsa/> | | |
+| KEM-based pre-shared-key handshakes for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-wiggers-tls-authkem-psk/> | AuthKEM variant for resumption / PSK | Companion to draft-celi-wiggers-tls-authkem |
+| HQC-KEM Key Agreement for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-preussmattsson-tls-hqckem/> | HQC for TLS | |
+| Post-Quantum Hybrid ML-KEM-1024/X448 Key Agreement for TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-preussmattsson-tls-mlkem1024-x448/> | X448MLKEM1024 | |
+| Post-Quantum Traditional (PQ/T) Hybrid Authentication with Dual Certificates in TLS 1.3 | Active individual draft | <https://datatracker.ietf.org/doc/draft-yusef-tls-pqt-dual-certs/> | Non-composite hybrid authentication with two certificates | |
+| PQC Continuity: Downgrade Protection for TLS Servers Migrating to PQC | Active individual draft | <https://datatracker.ietf.org/doc/draft-sheffer-tls-pqc-continuity/> | Prevents downgrade to traditional authentication | |
 
 
 # Improvements adjacent to PQC
