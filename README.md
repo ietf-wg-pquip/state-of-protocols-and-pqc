@@ -2,7 +2,7 @@ _Statuses last checked against the IETF Datatracker on 2026-11-10._
 
 # Protocol-independent algorithm or cryptography specifications
 
-| Draft title | Status | Link | Working Group and/or protocol | Topic | Comments |
+| Draft or RFC title | Status | Link | Working Group and/or protocol | Topic | Comments |
 |------------ |------- |----- |------------------------------ |------ |--------- |
 | Additional Parameter Sets for HSS/LMS Hash-Based Signatures | RFC 9858 | <https://datatracker.ietf.org/doc/rfc9858/> | CFRG | Parameter sets for the LMS signature primitive | |
 | Combiner function for hybrid key encapsulation mechanisms (Hybrid KEMs) | Expired | <https://datatracker.ietf.org/doc/draft-ounsworth-cfrg-kem-combiners/> | CFRG | | This draft led to the CFRG call for the area of hybrid combiners |
@@ -21,8 +21,6 @@ _Statuses last checked against the IETF Datatracker on 2026-11-10._
 | X25519Kyber768Draft00 hybrid post-quantum KEM for HPKE | Expired | <https://datatracker.ietf.org/doc/draft-westerbaan-cfrg-hpke-xyber768d00/> | CFRG | Adds Kyber support (as a hybrid with X25519) to HPKE RFC 9180 | This was for the NIST Round 3 Draft version of Kyber for prototyping |
 | XMSS: eXtended Merkle Signature Scheme | RFC | <https://www.rfc-editor.org/rfc/rfc8391> | CFRG | | RFC | 
 | Merkle Tree Ladder Mode (MTL) Signatures | Expired | <https://datatracker.ietf.org/doc/draft-harvey-cfrg-mtl-mode/> | CFRG / DNS | Amortize large PQ signatures across a large evolving series of messages | |
-
-
 
 # PQC support in protocols and migration techniques
 
@@ -236,6 +234,20 @@ This table lists IETF Security protocols with "no action needed", typically beca
 | Protocol | RFC       | Working Group  | Cryptographic dependencies | Comment |
 |--------- |---------- |--------------- |--------------------------- |-------- |
 | SRTP     | <https://datatracker.ietf.org/doc/rfc3711/> | AVT | DTLS (RFC 9147) | KEX handled by DTLS (RFC 5763/5764), Symmetric key AEAD (AES-GCM) algos available for actual SRTP (RFC 7714) |
+
+# CNSA Suite 2 profiles
+The following are documents being published in the Independent Stream to document the algorithms and protocols
+for the Commercial National Security Algorithm Suite published by the United States Government.
+They are not part of any IETF work.
+
+| Draft or RFC title | Link | 
+|------------------- |----- |
+| Commercial National Security Algorithm (CNSA) Suite 2.0 Profile for Certificate Management over CMS | <https://datatracker.ietf.org/doc/draft-jenkins-cnsa2-cmc-profile> |
+| Commercial National Security Algorithm (CNSA) Suite 2.0 Profile for Certificates and Certificate Revocation Lists | <https://datatracker.ietf.org/doc/draft-jenkins-cnsa2-pkix-profile/> |
+| Commercial National Security Algorithm (CNSA) Suite 2.0 Profile for IPsec | <https://datatracker.ietf.org/doc/draft-guthrie-cnsa2-ipsec-profile> |
+| Commercial National Security Algorithm (CNSA) Suite 2.0 Profile for Secure/Multipurpose Internet Mail Extensions (S/MIME) | <https://datatracker.ietf.org/doc/draft-becker-cnsa2-smime-profile> |
+| Commercial National Security Algorithm (CNSA) Suite 2.0 Profile for SSH | <https://datatracker.ietf.org/doc/draft-becker-cnsa2-ssh-profile> |
+| Commercial National Security Algorithm (CNSA) Suite 2.0 Profile for TLS 1.3 | <https://datatracker.ietf.org/doc/draft-becker-cnsa2-tls-profile> |
 
 # Suggestions for possible additions
 
